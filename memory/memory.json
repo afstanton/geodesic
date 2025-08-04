@@ -80,6 +80,11 @@
 {"type":"entity","name":"Grape","entityType":"Ruby Gem","observations":["A REST-like API framework for Ruby."]}
 {"type":"entity","observations":["Rack middleware for blocking and throttling abusive requests."],"name":"Rack-Attack","entityType":"Ruby Gem"}
 {"type":"entity","entityType":"Ruby Gem","name":"Doorkeeper","observations":["An OAuth2 provider for Rails."]}
+{"type":"entity","observations":["A Ruby library for interacting with LLM-based multi-cloud platforms."],"entityType":"Ruby Gem","name":"ruby_llm-mcp"}
+{"type":"entity","entityType":"Ruby Gem","observations":["A Ruby library for defining and validating LLM schemas."],"name":"ruby_llm-schema"}
+{"type":"entity","entityType":"Ruby Gem","name":"RubyLLM","observations":["A Ruby library for interacting with large language models."]}
+{"type":"entity","entityType":"Ruby Gem","observations":["A Ruby library for interacting with LLM-based multi-cloud platforms."],"name":"RubyLLM-MCP"}
+{"type":"entity","name":"RubyLLM-Schema","observations":["A Ruby library for defining and validating LLM schemas."],"entityType":"Ruby Gem"}
 {"type":"relation","from":"Aaron F Stanton","to":"Chemistry Doctorate","relationType":"earned"}
 {"type":"relation","from":"Aaron F Stanton","to":"Web Development Career","relationType":"has"}
 {"type":"relation","from":"Aaron F Stanton","to":"Current Financial Situation","relationType":"faces"}
@@ -274,3 +279,8 @@
 {"type":"relation","relationType":"uses","to":"Grape","from":"API Gateway Engine"}
 {"type":"relation","to":"Rack-Attack","relationType":"uses","from":"API Gateway Engine"}
 {"type":"relation","from":"API Gateway Engine","relationType":"uses","to":"Doorkeeper"}
+{"type":"relation","relationType":"uses","to":"ruby_llm-mcp","from":"MCP Gateway Engine"}
+{"type":"relation","relationType":"uses","from":"MCP Gateway Engine","to":"ruby_llm-schema"}
+{"type":"relation","relationType":"uses","from":"MCP Gateway Engine","to":"RubyLLM"}
+{"type":"relation","relationType":"uses","to":"RubyLLM-MCP","from":"MCP Gateway Engine"}
+{"type":"relation","from":"MCP Gateway Engine","to":"RubyLLM-Schema","relationType":"uses"}

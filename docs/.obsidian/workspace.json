@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/Deployment Strategy.md",
+                "file": "Gems/Existing/RubyLLM-MCP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Deployment Strategy"
+              "title": "RubyLLM-MCP"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis/Deployment Strategy.md",
+                "file": "Gems/Existing/RubyLLM-MCP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Deployment Strategy"
+              "title": "Backlinks for RubyLLM-MCP"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis/Deployment Strategy.md",
+                "file": "Gems/Existing/RubyLLM-MCP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Deployment Strategy"
+              "title": "Outgoing links from RubyLLM-MCP"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis/Deployment Strategy.md",
+                "file": "Gems/Existing/RubyLLM-MCP.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Deployment Strategy"
+              "title": "Outline of RubyLLM-MCP"
             }
           }
         ]
@@ -170,12 +170,18 @@
   },
   "active": "78248e4c726cbee8",
   "lastOpenFiles": [
+    "Gems/Existing/RubyLLM-Schema.md",
+    "Gems/Existing/RubyLLM.md",
+    "Gems/Existing/RubyLLM-MCP.md",
+    "Gems/Existing/ruby-llm.md",
+    "Analysis/Deployment Strategy.md",
+    "Gems/Existing/ruby-langchain.md",
+    "Gems/Existing/ruby-openai.md",
     "Gems/Existing/Doorkeeper.md",
     "Gems/Existing/Rack-Attack.md",
     "Gems/Existing/Grape.md",
     "Engines/New/MCP Gateway Engine.md",
     "Engines/New/API Gateway Engine.md",
-    "Analysis/Deployment Strategy.md",
     "Architecture/ADRs.md",
     "Analysis/Glossary.md",
     "Gems/Existing/Capybara.md",
@@ -190,15 +196,9 @@
     "Gems/Existing/RSpec Mocks.md",
     "Gems/Existing/FactoryBot.md",
     "Gems/Existing/RSpec.md",
-    "UX/User Flows.md",
-    "Architecture/Data Model.md",
-    "Analysis/Development Roadmap.md",
     "Development",
     "UX",
     "Architecture",
-    "Analysis/Asymmetric SaaS Opportunities for Advanced Analytics + Rails.md",
-    "Analysis/Baseline.md",
-    "Analysis/Interim Goals.md",
     "Engines/Existing",
     "Engines/New",
     "Gems/Existing",

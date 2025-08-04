@@ -54,6 +54,11 @@ This directory contains documentation for Ruby gems that would accelerate develo
 ## Application Monitoring & Error Tracking
 - **[[Sentry]]** - Real-time error tracking and performance monitoring.
 
+## AI/LLM Integration
+- **[[RubyLLM]]** - A Ruby library for interacting with large language models.
+- **[[RubyLLM-MCP]]** - A Ruby library for interacting with LLM-based multi-cloud platforms.
+- **[[RubyLLM-Schema]]** - A Ruby library for defining and validating LLM schemas.
+
 ## SaaS Application Gems
 
 ### Payment & Billing

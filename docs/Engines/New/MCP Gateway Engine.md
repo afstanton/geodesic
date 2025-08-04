@@ -18,4 +18,4 @@
 - **Models**: `MlModel`, `MlPlatform`, `InferenceRequest`.
 - **Services**: Service objects to interact with external MCP APIs.
 - **Integration**: Close integration with the [[Data Ingestion Engine]] for data pipelines and the [[Statistical Analysis Engine]] for model development.
-- **Dependencies**: [[Faraday]] for general API communication, and cloud-specific SDKs like `aws-sdk-ruby`, `google-cloud-ruby`, and `azure-sdk-for-ruby` for interacting with various MCPs.
+- **Dependencies**: [[Faraday]] for general API communication, cloud-specific SDKs like `aws-sdk-ruby`, `google-cloud-ruby`, and `azure-sdk-for-ruby` for interacting with various MCPs, and LLM-specific gems like [[RubyLLM]], [[RubyLLM-MCP]], and [[RubyLLM-Schema]] for AI functionality.
