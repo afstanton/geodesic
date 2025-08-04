@@ -26,7 +26,9 @@
 ### Financial Situation (Critical)
 - **Income:** $0
 - **Net worth:** Negative
-- **Monthly expenses:** ~$3,000
+- **Current monthly bills:** ~$3,000 (not including living expenses)
+- **Target net monthly income:** $6-7,000 (includes relocation living costs)
+- **Required business gross revenue:** ~$10,000/month
 - **Current strategy:** Borrowing to meet obligations
 - **Urgency:** High - unsustainable situation
 
