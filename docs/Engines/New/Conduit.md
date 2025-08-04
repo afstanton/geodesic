@@ -2,7 +2,7 @@
 
 **Purpose**: To provide a robust and extensible framework for extracting, transforming, and loading data from a variety of sources into the application's data warehouse.
 
-**Related To**: [[Business Intelligence SaaS]], [[Marketing Analytics SaaS]]
+**Related To**: [[Vantage]], [[Catalyst]]
 
 ## Core Features
 

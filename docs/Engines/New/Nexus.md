@@ -2,7 +2,7 @@
 
 **Purpose**: To provide a standardized and secure way to expose application functionality and data via APIs for third-party developers and external systems.
 
-**Related To**: [[SaaS Factory Strategy]], [[Business Intelligence SaaS]], [[Marketing Analytics SaaS]]
+**Related To**: [[SaaS Factory Strategy]], [[Vantage]], [[Catalyst]]
 
 ## Core Features
 

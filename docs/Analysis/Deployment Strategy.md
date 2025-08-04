@@ -21,7 +21,7 @@
 - **Tool**: [[GitHub Actions]]
 - **Pipeline Stages**:
     1.  **Code Push**: Triggered on every push to the `main` branch or pull request merge.
-    2.  **Testing**: Run all [[Unit Tests]], [[Integration Tests]], and [[End-to-End (E2E) Tests]] as defined in the [[Testing Strategy]].
+    2.  **Testing**: Run all [[Testing Strategy#Unit Tests]], [[Testing Strategy#Integration Tests]], and [[Testing Strategy#End-to-End (E2E) Tests]] as defined in the [[Testing Strategy]].
     3.  **Build**: Build the application artifacts (e.g., Docker images).
     4.  **Deployment**: Deploy the application to staging and then to production environments upon successful tests and manual approval.
 

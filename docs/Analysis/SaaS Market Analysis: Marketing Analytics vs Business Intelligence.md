@@ -4,7 +4,7 @@
 **Purpose:** Determine optimal path to $10k MRR by end-2025  
 **Context:** [[Baseline]] financial needs → [[Interim Goals]] → [[Long Term Vision]] scaling
 
-**Options Analyzed:** [[Marketing Analytics SaaS]] vs [[Business Intelligence SaaS]]  
+**Options Analyzed:** [[Catalyst]] vs [[Vantage]]  
 **Strategic Framework:** [[SaaS Factory Strategy]]
 
 Two compelling opportunities emerge from this comprehensive competitive analysis, each offering distinct paths to your $10k MRR target by end-2025. **Marketing Analytics SaaS presents higher growth potential (15.5% CAGR) with stronger competitive moats through advanced statistical modeling, while Business Intelligence SaaS offers faster time-to-market (3-5 months vs 4-6 months) in a more mature but stable market (14.98% CAGR)**. Your chemistry PhD and optimization background creates the strongest technical arbitrage in Marketing Mix Modeling, where advanced statistical expertise becomes a decisive competitive advantage.
@@ -116,7 +116,7 @@ Both markets demonstrate strong growth characteristics with different risk-rewar
 Both opportunities represent substantial markets with clear paths to your revenue targets, but offer different risk-reward profiles matching your technical background and timeline constraints. **Business Intelligence with advanced analytics provides the most realistic path to $10k MRR by end-2025** through established market dynamics, faster development cycles, and clear premium positioning opportunities where your statistical expertise creates competitive advantage.
 
 **Recommended Next Steps:**
-1. Review detailed implementation plans: [[Business Intelligence SaaS]] (recommended) or [[Marketing Analytics SaaS]] (alternative)
+1. Review detailed implementation plans: [[Vantage]] (recommended) or [[Catalyst]] (alternative)
 2. Apply [[SaaS Factory Strategy]] modular architecture to chosen path
 3. Begin development to meet [[Interim Goals]] timeline
 4. Scale according to [[Long Term Vision]] wealth targets

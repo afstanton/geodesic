@@ -2,7 +2,7 @@
 
 **Purpose**: To provide a unified and abstracted interface for integrating with various Machine Learning/AI Platform (MCP) services, enabling seamless consumption and deployment of AI/ML models within the applications.
 
-**Related To**: [[SaaS Factory Strategy]], [[Business Intelligence SaaS]], [[Marketing Analytics SaaS]], [[Technical Arbitrage Strategy]]
+**Related To**: [[SaaS Factory Strategy]], [[Vantage]], [[Catalyst]], [[Technical Arbitrage Strategy]]
 
 ## Core Features
 

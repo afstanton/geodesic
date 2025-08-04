@@ -2,7 +2,7 @@
 
 **Purpose**: To provide a framework for defining, detecting, and notifying users of important events and anomalies in their data.
 
-**Related To**: [[Business Intelligence SaaS]]
+**Related To**: [[Vantage]]
 
 ## Core Features
 

@@ -2,7 +2,7 @@
 
 **Purpose**: To provide a rich, interactive, and extensible framework for data visualization.
 
-**Related To**: [[Business Intelligence SaaS]], [[Marketing Analytics SaaS]]
+**Related To**: [[Vantage]], [[Catalyst]]
 
 ## Core Features
 

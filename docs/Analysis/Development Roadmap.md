@@ -23,7 +23,7 @@
 -   **[[Conduit]] (v0.5 - UI & Scheduling)**: Add a user interface for managing data source credentials (securely, perhaps using Rails encrypted credentials) and scheduling recurring data ingestion jobs. This makes the data pipeline self-service.
 -   **[[Aegis]] (v0.5 - Basic RBAC)**: Implement basic role-based access control (e.g., 'admin' vs. 'viewer' roles) using [[Pundit]] and [[Rolify]]. This allows for differentiated access to dashboards and data.
 -   **Data Model Refinement**: Continuously refine the core data models within [[Conduit]], [[Quant]], and [[Canvas]] to support the MVP features.
--   **Testing**: Implement comprehensive [[Unit Tests]] and [[Integration Tests]] for all new features, leveraging [[RSpec]], [[FactoryBot]], [[Webmock]], and [[VCR]].
+-   **Testing**: Implement comprehensive [[Testing Strategy#Unit Tests]] and [[Testing Strategy#Integration Tests]] for all new features, leveraging [[RSpec]], [[FactoryBot]], [[Webmock]], and [[VCR]].
 
 ## Phase 2: Post-MVP Enhancement (Months 5-6)
 

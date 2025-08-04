@@ -2,7 +2,7 @@
 
 **Purpose**: To provide a framework for solving operations research and mathematical optimization problems.
 
-**Related To**: [[Business Intelligence SaaS]], [[Technical Arbitrage Strategy]]
+**Related To**: [[Vantage]], [[Technical Arbitrage Strategy]]
 
 ## Core Features
 

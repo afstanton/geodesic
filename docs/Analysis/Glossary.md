@@ -14,8 +14,8 @@
 
 ## Application & Domain Specific Terms
 
-- **[[Business Intelligence SaaS]] (Insight Engine)**: The primary recommended SaaS application to be developed, focusing on advanced statistical analysis for mid-market companies.
-- **[[Marketing Analytics SaaS]] (Attribution Engine)**: The alternative SaaS application option, focusing on marketing attribution and eventually Marketing Mix Modeling.
+- **[[Vantage]] (Insight Engine)**: The primary recommended SaaS application to be developed, focusing on advanced statistical analysis for mid-market companies.
+- **[[Catalyst]] (Attribution Engine)**: The alternative SaaS application option, focusing on marketing attribution and eventually Marketing Mix Modeling.
 - **ETL (Extract, Transform, Load)**: A process in data warehousing that involves extracting data from sources, transforming it into a suitable format, and loading it into a target system.
 - **MMM (Marketing Mix Modeling)**: A statistical analysis that quantifies the impact of various marketing inputs on sales and provides insights into how to optimize marketing spend.
 - **RBAC (Role-Based Access Control)**: A method of restricting system access to authorized users based on their role within an organization.

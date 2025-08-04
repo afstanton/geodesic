@@ -76,12 +76,12 @@ Aaron's unique combination (chemistry PhD + optimization expertise + 20 years Ra
 
 ## Current Strategic Focus
 
-**Phase:** Implementation decision point  
-**Primary Opportunity:** Business Intelligence SaaS (recommended)  
-**Alternative Opportunity:** Marketing Analytics SaaS  
-**Documentation Status:** Complete strategic analysis and implementation plans
+**Phase:** Implementation phase - building first SaaS application
+**Primary Opportunity:** Vantage (formerly Business Intelligence SaaS) - recommended
+**Alternative Opportunity:** Catalyst (formerly Marketing Analytics SaaS)
+**Documentation Status:** Complete strategic analysis, implementation plans, and development roadmap.
 
-**Decision Rationale for Business Intelligence SaaS:**
+**Decision Rationale for Vantage:**
 - Faster time-to-market (3-5 months MVP vs 4-6 months)
 - More predictable scaling with established per-user pricing models
 - Lower technical barriers while still leveraging statistical expertise
@@ -111,7 +111,23 @@ geodesic/
 ├── code/ruby/         # Development workspace with modular architecture
 ├── docs/             # Comprehensive planning and analysis documents
 │   ├── Analysis/     # Project analysis and planning documents
-│   └── Apps/         # Application-specific documentation
+│   │   ├── Development Roadmap.md # Phased development plan
+│   │   ├── Glossary.md # Definitions of key terms
+│   │   └── Deployment Strategy.md # Production deployment plan
+│   ├── Architecture/ # Architectural documentation
+│   │   ├── Data Model.md # High-level data model
+│   │   └── ADRs.md # Architecture Decision Records
+│   ├── Apps/         # Application-specific documentation
+│   │   ├── Vantage.md # Recommended implementation plan
+│   │   └── Catalyst.md # Alternative implementation plan
+│   ├── Engines/      # Rails engine documentation
+│   │   ├── Existing/ # Third-party engines for evaluation
+│   │   └── New/      # New custom engines to be built
+│   ├── Gems/         # Ruby gem documentation
+│   │   ├── Existing/ # Third-party gems for evaluation
+│   │   └── New/      # New custom gems to be built
+│   └── UX/           # User Experience documentation
+│       └── User Flows.md # Core user interaction flows
 ├── memory/           # Knowledge graph storage (currently being populated)
 └── .obsidian/        # Aaron uses Obsidian for note-taking
 ```
@@ -124,8 +140,15 @@ geodesic/
 - `docs/Analysis/Project Inventory.md` - Analysis of previous work
 - `docs/Analysis/Asymmetric SaaS Opportunities for Advanced Analytics + Rails.md` - Initial market research
 - `docs/Analysis/SaaS Market Analysis: Marketing Analytics vs Business Intelligence.md` - Comprehensive competitive analysis
-- `docs/Apps/Business Intelligence SaaS.md` - Recommended implementation plan
-- `docs/Apps/Marketing Analytics SaaS.md` - Alternative implementation plan
+- `docs/Apps/Vantage.md` - Recommended implementation plan
+- `docs/Apps/Catalyst.md` - Alternative implementation plan
+- `docs/Analysis/Development Roadmap.md` - Phased development plan
+- `docs/Analysis/Glossary.md` - Definitions of key terms
+- `docs/Architecture/ADRs.md` - Architecture Decision Records
+- `docs/Architecture/Data Model.md` - High-level data model
+- `docs/UX/User Flows.md` - Core user interaction flows
+- `docs/Development/Testing Strategy.md` - Testing strategy
+- `docs/Analysis/Deployment Strategy.md` - Deployment strategy
 
 ## Knowledge Graph Context
 

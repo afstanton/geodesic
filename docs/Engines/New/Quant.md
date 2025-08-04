@@ -2,7 +2,7 @@
 
 **Purpose**: To provide the core statistical and mathematical modeling capabilities that differentiate the Geodesic SaaS products.
 
-**Related To**: [[Business Intelligence SaaS]], [[Marketing Analytics SaaS]], [[Technical Arbitrage Strategy]]
+**Related To**: [[Vantage]], [[Catalyst]], [[Technical Arbitrage Strategy]]
 
 ## Core Features
 

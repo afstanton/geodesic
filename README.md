@@ -4,11 +4,11 @@
 
 Geodesic is my personal project management and business development system, named after the mathematical concept of the shortest distance between two points. This repository serves as both a planning workspace and development environment for building a sustainable business empire that will ultimately fund molecular nanotechnology research.
 
-## Project Status: Strategic Planning Complete
+## Project Status: Implementation Phase - Building First SaaS Application
 
-**Current Phase:** Decision point between two validated SaaS opportunities  
-**Documentation:** Comprehensive analysis and implementation plans completed  
-**Next Step:** Begin development of chosen application
+**Current Phase:** Active development of the first SaaS application, Vantage.
+**Documentation:** Comprehensive analysis, implementation plans, and development roadmaps are in place.
+**Next Step:** Execute the development roadmap to launch the MVP.
 
 ## The Mission
 
@@ -47,19 +47,19 @@ My unique combination of chemistry PhD (global optimization thesis) + 20 years R
 - Operations research and supply chain optimization
 - Cross-platform integrations requiring deep technical knowledge
 
-## Current Decision Point
+## Current Focus
 
 Based on comprehensive market research *([[docs/Analysis/SaaS Market Analysis: Marketing Analytics vs Business Intelligence]])*, two specific SaaS applications have been validated:
 
-### Option 1: Business Intelligence SaaS (Recommended)
-*See [[docs/Apps/Business Intelligence SaaS]]*
+### Option 1: Vantage (Recommended)
+*See [[docs/Apps/Vantage]]*
 - **Target:** Mid-market companies needing advanced analytics
 - **Pricing:** $1,000-3,000/month per customer
 - **Timeline:** 3-5 months MVP, 6-12 months full features
 - **Advantage:** Faster time-to-market, established pricing models
 
-### Option 2: Marketing Analytics SaaS (Alternative)
-*See [[docs/Apps/Marketing Analytics SaaS]]*
+### Option 2: Catalyst (Alternative)
+*See [[docs/Apps/Catalyst]]*
 - **Target:** Companies with $500k-$5M marketing spend
 - **Pricing:** $800-4,000/month per customer  
 - **Timeline:** 4-6 months MVP, 12-24 months full MMM capabilities
@@ -84,12 +84,22 @@ geodesic/
 │   │   ├── Interim Goals.md # Short-term objectives
 │   │   ├── Long Term Vision.md # Ultimate destination
 │   │   ├── SaaS Factory Strategy.md # Technical approach
-│   │   └── Project Inventory.md # Previous work analysis
+│   │   ├── Project Inventory.md # Previous work analysis
+│   │   ├── Development Roadmap.md # Phased development plan
+│   │   ├── Glossary.md # Definitions of key terms
+│   │   └── Deployment Strategy.md # Production deployment plan
+│   ├── Architecture/  # Architectural documentation
+│   │   ├── Data Model.md # High-level data model
+│   │   └── ADRs.md # Architecture Decision Records
 │   ├── Apps/          # Application-specific documentation
 │   ├── Engines/       # Rails engine documentation
-│   │   └── Existing/  # Third-party engines for evaluation
-│   └── Gems/          # Ruby gem documentation
-│       └── Existing/  # Third-party gems for evaluation
+│   │   ├── Existing/  # Third-party engines for evaluation
+│   │   └── New/       # New custom engines to be built
+│   ├── Gems/          # Ruby gem documentation
+│   │   ├── Existing/  # Third-party gems for evaluation
+│   │   └── New/       # New custom gems to be built
+│   └── UX/            # User Experience documentation
+│       └── User Flows.md # Core user interaction flows
 └── memory/            # Knowledge graph storage
 ```
 
@@ -101,29 +111,39 @@ geodesic/
 - **[[docs/Analysis/Long Term Vision]]** - Ultimate billion-dollar wealth targets
 - **[[docs/Analysis/SaaS Factory Strategy]]** - Modular development approach
 - **[[docs/Analysis/Project Inventory]]** - Analysis of previous incomplete work
+- **[[docs/Analysis/Development Roadmap]]** - Phased development plan for the first SaaS application
+- **[[docs/Analysis/Glossary]]** - Definitions of key terms and concepts
+- **[[docs/Analysis/Deployment Strategy]]** - Strategy for deploying and maintaining the application
 
 ### Market Research  
 - **[[docs/Analysis/Asymmetric SaaS Opportunities for Advanced Analytics + Rails]]** - Initial opportunity analysis
 - **[[docs/Analysis/SaaS Market Analysis: Marketing Analytics vs Business Intelligence]]** - Comprehensive competitive research
 
 ### Implementation Plans
-- **[[docs/Apps/Business Intelligence SaaS]]** - Recommended faster-to-market option
-- **[[docs/Apps/Marketing Analytics SaaS]]** - Alternative higher-growth option
+- **[[docs/Apps/Vantage]]** - Recommended faster-to-market option (formerly Business Intelligence SaaS)
+- **[[docs/Apps/Catalyst]]** - Alternative higher-growth option (formerly Marketing Analytics SaaS)
 
 ### Technical Components
 - **[[docs/Engines/Existing/]]** - Third-party Rails engines for evaluation and integration
+- **[[docs/Engines/New/]]** - New custom Rails engines to be built
 - **[[docs/Gems/Existing/]]** - Ruby gems for accelerated development
+- **[[docs/Gems/New/]]** - New custom Ruby gems to be built
+
+### Architectural & UX Documentation
+- **[[docs/Architecture/Data Model]]** - High-level data model for the application
+- **[[docs/Architecture/ADRs]]** - Architecture Decision Records
+- **[[docs/UX/User Flows]]** - Core user interaction flows
 
 ## Current Focus
 
-**Decision Phase Complete:** Business Intelligence SaaS identified as optimal path based on:
+**Decision Phase Complete:** Vantage identified as optimal path based on:
 - Faster development timeline (3-5 months vs 4-6 months)
 - More predictable scaling with established per-user pricing
 - Lower technical barriers while still leveraging statistical expertise  
 - Clearer path to $10k MRR by end-2025 deadline
 
 **Next Actions:**
-1. Finalize technology stack and modular engine architecture
+1. Execute **Phase 0: Foundation** of the [[docs/Analysis/Development Roadmap]]
 2. Begin MVP development targeting mid-market companies
 3. Focus on healthcare/financial services verticals for premium positioning
 4. Implement [[docs/Analysis/SaaS Factory Strategy]] for maximum component reusability

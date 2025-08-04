@@ -1,6 +1,6 @@
 # Project Inventory & Technical Arbitrage Analysis
 
-Foundation: [[Baseline]] | Strategy: [[SaaS Factory Strategy]] | Current Options: [[Business Intelligence SaaS]], [[Marketing Analytics SaaS]]  
+Foundation: [[Baseline]] | Strategy: [[SaaS Factory Strategy]] | Current Options: [[Vantage]], [[Catalyst]]  
 Initial Research: [[Asymmetric SaaS Opportunities for Advanced Analytics + Rails]]
 
 ## The Pattern Recognition
@@ -81,7 +81,7 @@ Aaron has identified a crucial pattern:
 ## Immediate Decision Framework
 **DECISION COMPLETED:** Based on comprehensive market research and competitive analysis:
 
-**Selected Path:** [[Business Intelligence SaaS]]  
+**Selected Path:** [[Vantage]]  
 **Rationale:**
 1. **Speed to Revenue:** 3-5 months MVP vs 4-6 months for Marketing Analytics
 2. **Leverage Existing Work:** Can utilize analytical engines from previous explorations
