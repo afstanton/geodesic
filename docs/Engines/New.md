@@ -10,3 +10,8 @@ This directory contains documentation for new, custom Rails engines to be built 
 - **[[Alerting Engine]]**: Handles anomaly detection and user notification logic.
 - **[[Security Engine]]**: Manages application-level security, roles, and permissions.
 - **[[Optimization Engine]]**: Provides operations research and mathematical optimization capabilities.
+
+## Gateway Engines
+
+- **[[API Gateway Engine]]**: Provides a standardized way to expose application functionality via APIs for third-party developers.
+- **[[MCP Gateway Engine]]**: Offers a unified interface for integrating with various Machine Learning/AI Platform services.

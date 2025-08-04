@@ -75,6 +75,11 @@
 {"type":"entity","entityType":"AWS Service","name":"ElastiCache","observations":["A fully managed in-memory data store compatible with Redis and Memcached."]}
 {"type":"entity","observations":["A serverless compute service that lets you run code without provisioning or managing servers."],"entityType":"AWS Service","name":"AWS Lambda"}
 {"type":"entity","entityType":"Tool","observations":["A CI/CD platform that allows you to automate your build, test, and deployment pipeline."],"name":"GitHub Actions"}
+{"type":"entity","entityType":"Rails Engine","name":"API Gateway Engine","observations":["Provides a standardized way to expose application functionality via APIs for third-party developers."]}
+{"type":"entity","entityType":"Rails Engine","observations":["Offers a unified interface for integrating with various Machine Learning/AI Platform services."],"name":"MCP Gateway Engine"}
+{"type":"entity","name":"Grape","entityType":"Ruby Gem","observations":["A REST-like API framework for Ruby."]}
+{"type":"entity","observations":["Rack middleware for blocking and throttling abusive requests."],"name":"Rack-Attack","entityType":"Ruby Gem"}
+{"type":"entity","entityType":"Ruby Gem","name":"Doorkeeper","observations":["An OAuth2 provider for Rails."]}
 {"type":"relation","from":"Aaron F Stanton","to":"Chemistry Doctorate","relationType":"earned"}
 {"type":"relation","from":"Aaron F Stanton","to":"Web Development Career","relationType":"has"}
 {"type":"relation","from":"Aaron F Stanton","to":"Current Financial Situation","relationType":"faces"}
@@ -255,3 +260,17 @@
 {"type":"relation","from":"Deployment Strategy","to":"AWS Lambda","relationType":"uses"}
 {"type":"relation","from":"Deployment Strategy","to":"Testing Strategy","relationType":"integrates_with"}
 {"type":"relation","from":"Deployment Strategy","to":"Sentry","relationType":"integrates_with"}
+{"type":"relation","to":"API Gateway Engine","from":"SaaS Factory Model","relationType":"composed_of"}
+{"type":"relation","from":"SaaS Factory Model","to":"MCP Gateway Engine","relationType":"composed_of"}
+{"type":"relation","relationType":"requires","from":"Business Intelligence SaaS","to":"API Gateway Engine"}
+{"type":"relation","relationType":"requires","from":"Business Intelligence SaaS","to":"MCP Gateway Engine"}
+{"type":"relation","relationType":"requires","from":"Marketing Analytics SaaS","to":"API Gateway Engine"}
+{"type":"relation","relationType":"requires","from":"Marketing Analytics SaaS","to":"MCP Gateway Engine"}
+{"type":"relation","from":"API Gateway Engine","to":"Security Engine","relationType":"uses"}
+{"type":"relation","relationType":"uses","to":"Faraday","from":"API Gateway Engine"}
+{"type":"relation","relationType":"uses","from":"MCP Gateway Engine","to":"Data Ingestion Engine"}
+{"type":"relation","from":"MCP Gateway Engine","to":"Statistical Analysis Engine","relationType":"uses"}
+{"type":"relation","to":"Faraday","from":"MCP Gateway Engine","relationType":"uses"}
+{"type":"relation","relationType":"uses","to":"Grape","from":"API Gateway Engine"}
+{"type":"relation","to":"Rack-Attack","relationType":"uses","from":"API Gateway Engine"}
+{"type":"relation","from":"API Gateway Engine","relationType":"uses","to":"Doorkeeper"}

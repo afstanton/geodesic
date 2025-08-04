@@ -34,6 +34,9 @@ This directory contains documentation for Ruby gems that would accelerate develo
 
 ### API Integration
 - **[[Faraday]]** - HTTP client library for robust API integrations
+- **[[Grape]]** - A REST-like API framework for Ruby.
+- **[[Rack-Attack]]** - Rack middleware for blocking and throttling abusive requests.
+- **[[Doorkeeper]]** - An OAuth2 provider for Rails.
 
 ### Caching & Performance
 - **[[Kredis]]** - Higher-level Redis data structures for caching and real-time features
