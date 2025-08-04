@@ -5,6 +5,8 @@
 **Revenue Target:** $1,000-3,000/month per customer  
 **Development Timeline:** 3-5 months MVP, 6-12 months full advanced analytics
 
+**Project Context:** [[SaaS Factory Strategy]] | Alternative: [[Marketing Analytics SaaS]] | Analysis: [[SaaS Market Analysis - Marketing Analytics vs Business Intelligence]]
+
 ## Strategic Overview
 
 A mid-market Business Intelligence platform that differentiates through advanced statistical analysis capabilities rather than just data visualization. This approach leverages Aaron's analytical background to create sophisticated insights that typical BI tools cannot provide, targeting the gap between basic dashboards and expensive enterprise analytics.
@@ -96,11 +98,11 @@ Data Sources → ETL Layer → Data Warehouse → Analytics Engine → Visualiza
 ```
 
 ### Reusable Engine Components
-- **Data Ingestion Engine** - Multi-source ETL and data connectivity
-- **Statistical Analysis Engine** - Advanced mathematical modeling
-- **Visualization Engine** - Interactive charts and dashboard components
+- **Data Ingestion Engine** - Multi-source ETL and data connectivity (shared with [[Marketing Analytics SaaS]])
+- **Statistical Analysis Engine** - Advanced mathematical modeling (core [[SaaS Factory Strategy]] differentiator)
+- **Visualization Engine** - Interactive charts and dashboard components (shared component)
 - **Alerting Engine** - Anomaly detection and notification system
-- **Security Engine** - Role-based access and data governance
+- **Security Engine** - Role-based access and data governance (universal component)
 
 ## Customer Acquisition Strategy
 
@@ -220,7 +222,11 @@ Data Sources → ETL Layer → Data Warehouse → Analytics Engine → Visualiza
 **Risk:** Difficulty hiring statistical talent for advanced features  
 **Mitigation:** Aaron's expertise provides core differentiation, contractors for scaling
 
+**Note:** See [[Project Inventory]] for pattern analysis of previous incomplete projects.
+
 ## Success Metrics & Milestones
+
+Aligns with [[Interim Goals]] timeline and provides foundation for [[Long Term Vision]] scaling.
 
 ### Development Milestones
 - **Month 2:** Core data ingestion and basic analytics working
@@ -270,4 +276,4 @@ Data Sources → ETL Layer → Data Warehouse → Analytics Engine → Visualiza
 - **Community:** User forums, industry-specific user groups
 - **Regular Reviews:** Quarterly business reviews, ROI measurement
 
-This Business Intelligence platform represents the more achievable path to $10k MRR by end-2025 through faster development cycles, established market pricing models, and clear differentiation through advanced analytical capabilities.
+This Business Intelligence platform represents the more achievable path to $10k MRR by end-2025 through faster development cycles, established market pricing models, and clear differentiation through advanced analytical capabilities. See [[Marketing Analytics SaaS]] for the higher-risk alternative, or [[SaaS Market Analysis - Marketing Analytics vs Business Intelligence]] for detailed comparison. Implementation follows [[SaaS Factory Strategy]] principles for maximum reusability.

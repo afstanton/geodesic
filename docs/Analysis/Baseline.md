@@ -3,6 +3,8 @@
 **Date:** August 4, 2025  
 **Project:** Finding the shortest path from current state to financial stability
 
+See also: [[Interim Goals]], [[Long Term Vision]], [[SaaS Factory Strategy]]
+
 ## Current Position (Point A)
 
 ### Personal Profile
@@ -45,10 +47,10 @@
 4. Maintain focus despite financial pressure
 
 ## Questions for Path Definition
-- What specific financial goal constitutes "Point B"?
-- Should we focus on immediate income generation vs. longer-term career rebuilding?
-- How can we best leverage the unique combination of advanced chemistry background + extensive web development experience?
-- What are the fastest routes to $3k+/month sustainable income?
+- What specific financial goal constitutes "Point B"? → See [[Interim Goals]] and [[Long Term Vision]]
+- Should we focus on immediate income generation vs. longer-term career rebuilding? → Analysis in [[SaaS Market Analysis - Marketing Analytics vs Business Intelligence]]
+- How can we best leverage the unique combination of advanced chemistry background + extensive web development experience? → See [[SaaS Factory Strategy]]
+- What are the fastest routes to $3k+/month sustainable income? → Detailed in [[Business Intelligence SaaS]] and [[Marketing Analytics SaaS]]
 
 ---
 *This baseline assessment serves as Point A in the geodesic calculation.*

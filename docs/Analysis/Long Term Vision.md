@@ -2,6 +2,8 @@
 
 **Timeline:** 10-20+ year horizon
 
+Builds from: [[Interim Goals]] | Foundation: [[Baseline]] | Method: [[SaaS Factory Strategy]]
+
 ## The Ultimate Goal: Molecular Nanotechnology
 - **Primary objective:** Fund and pursue molecular nanotechnology research
 - **Connection to background:** Leverages chemistry doctorate and theoretical optimization knowledge
@@ -39,13 +41,13 @@
 ## The Complete Geodesic Map
 
 ```
-Current State (Point A)
+Current State ([[Baseline]])
     ↓
-Immediate Company Launch (4-5 months)
+Immediate Company Launch (4-5 months) → [[Business Intelligence SaaS]] or [[Marketing Analytics SaaS]]
     ↓
-Financial Stability + Indiana Exit (End 2025)
+Financial Stability + Indiana Exit (End 2025) → [[Interim Goals]]
     ↓
-Series of Bootstrapped Businesses (2-5 years)
+Series of Bootstrapped Businesses (2-5 years) → [[SaaS Factory Strategy]]
     ↓
 Significant Wealth Accumulation (5-10 years)
     ↓

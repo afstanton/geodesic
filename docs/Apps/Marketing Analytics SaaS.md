@@ -5,6 +5,8 @@
 **Revenue Target:** $800-4,000/month per customer  
 **Development Timeline:** 4-6 months MVP, 12-24 months full MMM capabilities
 
+**Project Context:** [[SaaS Factory Strategy]] | Alternative: [[Business Intelligence SaaS]] | Analysis: [[SaaS Market Analysis - Marketing Analytics vs Business Intelligence]]
+
 ## Strategic Overview
 
 A progressive marketing analytics platform that starts with accessible attribution and spend optimization, then evolves into sophisticated Marketing Mix Modeling capabilities. This approach leverages Aaron's optimization background while avoiding the extended development timeline of building full MMM from the start.
@@ -92,11 +94,11 @@ Data Sources → Ingestion Layer → Processing Engine → Analytics Engine → 
 ```
 
 ### Reusable Engine Components
-- **Data Ingestion Engine** - Multi-platform API connectors
+- **Data Ingestion Engine** - Multi-platform API connectors (shared with [[Business Intelligence SaaS]])
 - **Attribution Engine** - Statistical modeling and attribution logic
-- **Optimization Engine** - Mathematical optimization algorithms
-- **Reporting Engine** - Dashboard and visualization components
-- **Billing Engine** - Subscription and usage tracking
+- **Optimization Engine** - Mathematical optimization algorithms (leverages [[SaaS Factory Strategy]])
+- **Reporting Engine** - Dashboard and visualization components (shared component)
+- **Billing Engine** - Subscription and usage tracking (universal [[SaaS Factory Strategy]] component)
 
 ## Customer Acquisition Strategy
 
@@ -189,10 +191,12 @@ Data Sources → Ingestion Layer → Processing Engine → Analytics Engine → 
 **Mitigation:** Position as cost-optimization tool that saves money
 
 ### Execution Risks
-**Risk:** Aaron's pattern of starting but not finishing projects  
+**Risk:** Aaron's pattern of starting but not finishing projects ([[Project Inventory]])  
 **Mitigation:** Strict MVP focus, monthly revenue milestones, external accountability
 
 ## Success Metrics & Milestones
+
+Aligns with [[Interim Goals]] timeline and [[Long Term Vision]] wealth targets.
 
 ### Development Milestones
 - **Month 3:** Core data ingestion working for Google/Facebook
@@ -223,4 +227,4 @@ Data Sources → Ingestion Layer → Processing Engine → Analytics Engine → 
 3. **Dashboard Interface** (user experience) - clean, insightful reporting
 4. **Integration APIs** (market requirement) - seamless data connections
 
-This marketing analytics platform represents the higher-risk, higher-reward path with stronger competitive moats through advanced statistical modeling, but requires longer development timeline and more complex technical implementation.
+This marketing analytics platform represents the higher-risk, higher-reward path with stronger competitive moats through advanced statistical modeling, but requires longer development timeline and more complex technical implementation. See [[Business Intelligence SaaS]] for the alternative faster-to-market approach, or [[SaaS Market Analysis - Marketing Analytics vs Business Intelligence]] for detailed comparison.

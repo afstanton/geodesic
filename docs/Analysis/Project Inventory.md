@@ -1,5 +1,7 @@
 # Project Inventory & Technical Arbitrage Analysis
 
+Foundation: [[Baseline]] | Strategy: [[SaaS Factory Strategy]] | Current Options: [[Business Intelligence SaaS]], [[Marketing Analytics SaaS]]
+
 ## The Pattern Recognition
 Aaron has identified a crucial pattern:
 - **Previous Challenge:** Starting projects but not finishing them

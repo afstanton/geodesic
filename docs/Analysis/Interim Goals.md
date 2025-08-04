@@ -2,6 +2,8 @@
 
 **Timeline:** Now through End of 2025
 
+Builds on: [[Baseline]] | Leads to: [[Long Term Vision]] | Strategy: [[SaaS Factory Strategy]]
+
 ## Primary Objective: Entrepreneurial Independence
 - **Core motivation:** Stop making other people rich while having nothing to show for it
 - **Historical context:** Code has generated tens to hundreds of millions for previous employers
@@ -31,9 +33,11 @@
 - **Ideas:** Has concepts for building apps and companies quickly
 
 ## The Geodesic Calculation
-**Point A:** Unemployed, financially constrained, burned out  
-**Point B:** Self-employed entrepreneur generating sufficient income in new location  
+**Point A:** Unemployed, financially constrained, burned out ([[Baseline]])  
+**Point B:** Self-employed entrepreneur generating sufficient income in new location ([[Long Term Vision]])  
 **Path:** Rapid company launch → financial stability → geographic freedom
 
+**Execution Options:** See [[Business Intelligence SaaS]] and [[Marketing Analytics SaaS]] for detailed implementation plans.
+
 ---
-*Next: Define long-term goals to ensure interim path aligns with ultimate destination*
+*Next: Define long-term goals ([[Long Term Vision]]) to ensure interim path aligns with ultimate destination*
