@@ -11,10 +11,14 @@
             "id": "55b181cfd1e48e20",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Gems/Existing.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Existing"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Gems/Existing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Existing"
             }
           },
           {
@@ -108,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Gems/Existing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Existing"
             }
           },
           {
@@ -136,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Gems/Existing.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Existing"
             }
           }
         ]
@@ -163,6 +170,18 @@
   },
   "active": "55b181cfd1e48e20",
   "lastOpenFiles": [
+    "Development/Testing Strategy.md",
+    "Gems/Existing/VCR.md",
+    "Gems/Existing/Webmock.md",
+    "Gems/Existing/RSpec Mocks.md",
+    "Gems/Existing/FactoryBot.md",
+    "Gems/Existing/RSpec.md",
+    "UX/User Flows.md",
+    "Architecture/Data Model.md",
+    "Analysis/Development Roadmap.md",
+    "Development",
+    "UX",
+    "Architecture",
     "Analysis/Asymmetric SaaS Opportunities for Advanced Analytics + Rails.md",
     "Analysis/Baseline.md",
     "Analysis/Interim Goals.md",
@@ -180,22 +199,12 @@
     "Engines/New/Statistical Analysis Engine.md",
     "Engines/New/Visualization Engine.md",
     "Gems/New.md",
-    "Engines/New.md",
-    "Gems/New/API Client Builder.md",
-    "Gems/New/External Script Runner.md",
-    "Engines/Existing/Solidus.md",
-    "Engines/Existing/Spree Commerce.md",
-    "Engines/Existing/Pay.md",
-    "Engines/Existing/Devise.md",
-    "Engines/Existing/Administrate.md",
-    "Gems/Existing/Blazer.md",
     "Engines/Existing",
     "Engines/New",
     "Gems/Existing",
     "Gems/New",
     "Gems",
     "Engines",
-    "Apps",
-    "Analysis"
+    "Apps"
   ]
 }

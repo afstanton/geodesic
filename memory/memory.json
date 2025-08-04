@@ -46,6 +46,15 @@
 {"type":"entity","name":"Optimization Engine","entityType":"Rails Engine","observations":["Provides operations research and mathematical optimization capabilities."]}
 {"type":"entity","observations":["A gem for running external scripts (like R or Python) and handling data exchange."],"name":"External Script Runner","entityType":"Ruby Gem"}
 {"type":"entity","name":"API Client Builder","entityType":"Ruby Gem","observations":["A gem for creating standardized clients for third-party APIs."]}
+{"type":"entity","entityType":"Documentation","observations":["Outlines the phased development plan for the Business Intelligence SaaS."],"name":"Development Roadmap"}
+{"type":"entity","entityType":"Documentation","name":"Data Model","observations":["Defines the high-level data model for the Business Intelligence SaaS."]}
+{"type":"entity","observations":["Outlines the core user experiences and interaction flows for the Business Intelligence SaaS."],"entityType":"Documentation","name":"User Flows"}
+{"type":"entity","entityType":"Documentation","observations":["Defines a consistent and robust testing strategy for the Geodesic project."],"name":"Testing Strategy"}
+{"type":"entity","name":"RSpec","observations":["Behavior-driven development framework for Ruby."],"entityType":"Ruby Gem"}
+{"type":"entity","entityType":"Ruby Gem","observations":["A library for building test data."],"name":"FactoryBot"}
+{"type":"entity","name":"RSpec Mocks","observations":["A test double framework for RSpec."],"entityType":"Ruby Gem"}
+{"type":"entity","name":"Webmock","observations":["A library for stubbing and setting expectations on HTTP requests."],"entityType":"Ruby Gem"}
+{"type":"entity","entityType":"Ruby Gem","name":"VCR","observations":["A library for recording and replaying HTTP interactions during tests."]}
 {"type":"relation","from":"Aaron F Stanton","to":"Chemistry Doctorate","relationType":"earned"}
 {"type":"relation","from":"Aaron F Stanton","to":"Web Development Career","relationType":"has"}
 {"type":"relation","from":"Aaron F Stanton","to":"Current Financial Situation","relationType":"faces"}
@@ -193,3 +202,12 @@
 {"type":"relation","relationType":"uses","to":"Dry-rb","from":"Optimization Engine"}
 {"type":"relation","to":"External Script Runner","relationType":"uses","from":"Optimization Engine"}
 {"type":"relation","relationType":"uses","from":"API Client Builder","to":"Faraday"}
+{"type":"relation","relationType":"documented_by","to":"Development Roadmap","from":"Business Intelligence SaaS"}
+{"type":"relation","to":"Data Model","relationType":"documented_by","from":"Business Intelligence SaaS"}
+{"type":"relation","relationType":"documented_by","to":"User Flows","from":"Business Intelligence SaaS"}
+{"type":"relation","relationType":"documented_by","to":"Testing Strategy","from":"Geodesic"}
+{"type":"relation","relationType":"uses","from":"Testing Strategy","to":"RSpec"}
+{"type":"relation","relationType":"uses","to":"FactoryBot","from":"Testing Strategy"}
+{"type":"relation","relationType":"uses","to":"RSpec Mocks","from":"Testing Strategy"}
+{"type":"relation","from":"Testing Strategy","relationType":"uses","to":"Webmock"}
+{"type":"relation","from":"Testing Strategy","relationType":"uses","to":"VCR"}

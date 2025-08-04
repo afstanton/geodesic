@@ -37,6 +37,14 @@ This directory contains documentation for Ruby gems that would accelerate develo
 - **[[Kredis]]** - Higher-level Redis data structures for caching and real-time features
 - **[[PgHero]]** - PostgreSQL performance monitoring and optimization
 
+## Testing Gems
+
+- **[[RSpec]]** - Behavior-driven development framework for Ruby.
+- **[[FactoryBot]]** - A library for building test data.
+- **[[RSpec Mocks]]** - A test double framework for RSpec.
+- **[[Webmock]]** - A library for stubbing and setting expectations on HTTP requests.
+- **[[VCR]]** - A library for recording and replaying HTTP interactions during tests.
+
 ## SaaS Application Gems
 
 ### Payment & Billing
