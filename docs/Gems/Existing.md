@@ -27,6 +27,7 @@ This directory contains documentation for Ruby gems that would accelerate develo
 - **[[Draper]]** - Adds a presentation layer to your Rails app.
 - **[[Kaminari]]** - Clean, customizable pagination for large datasets
 - **[[Ransack]]** - Advanced search and filtering for data-heavy applications
+- **[[Searchkick]]** - Intelligent search for Rails applications.
 - **[[Blazer]]** - Business intelligence and SQL-based reporting interface
 
 ## Infrastructure & Performance Gems
@@ -45,6 +46,9 @@ This directory contains documentation for Ruby gems that would accelerate develo
 - **[[RSpec Mocks]]** - A test double framework for RSpec.
 - **[[Webmock]]** - A library for stubbing and setting expectations on HTTP requests.
 - **[[VCR]]** - A library for recording and replaying HTTP interactions during tests.
+
+## Application Monitoring & Error Tracking
+- **[[Sentry]]** - Real-time error tracking and performance monitoring.
 
 ## SaaS Application Gems
 

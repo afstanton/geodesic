@@ -56,6 +56,8 @@
 {"type":"entity","name":"Webmock","observations":["A library for stubbing and setting expectations on HTTP requests."],"entityType":"Ruby Gem"}
 {"type":"entity","entityType":"Ruby Gem","name":"VCR","observations":["A library for recording and replaying HTTP interactions during tests."]}
 {"type":"entity","name":"Rolify","entityType":"Ruby Gem","observations":["Role management for Rails applications."]}
+{"type":"entity","observations":["Intelligent search for Rails applications."],"name":"Searchkick","entityType":"Ruby Gem"}
+{"type":"entity","entityType":"Ruby Gem","name":"Sentry","observations":["Real-time error tracking and performance monitoring."]}
 {"type":"relation","from":"Aaron F Stanton","to":"Chemistry Doctorate","relationType":"earned"}
 {"type":"relation","from":"Aaron F Stanton","to":"Web Development Career","relationType":"has"}
 {"type":"relation","from":"Aaron F Stanton","to":"Current Financial Situation","relationType":"faces"}
@@ -213,3 +215,7 @@
 {"type":"relation","from":"Testing Strategy","relationType":"uses","to":"Webmock"}
 {"type":"relation","from":"Testing Strategy","relationType":"uses","to":"VCR"}
 {"type":"relation","from":"Security Engine","to":"Rolify","relationType":"uses"}
+{"type":"relation","from":"Business Intelligence SaaS","relationType":"uses","to":"Searchkick"}
+{"type":"relation","relationType":"uses","from":"Marketing Analytics SaaS","to":"Searchkick"}
+{"type":"relation","relationType":"uses","to":"Sentry","from":"Business Intelligence SaaS"}
+{"type":"relation","to":"Sentry","from":"Marketing Analytics SaaS","relationType":"uses"}

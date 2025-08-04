@@ -163,6 +163,8 @@
   },
   "active": "78248e4c726cbee8",
   "lastOpenFiles": [
+    "Gems/Existing/Sentry.md",
+    "Gems/Existing/Searchkick.md",
     "Gems/Existing/Rolify.md",
     "Gems/Existing/Apartment.md",
     "Gems/Existing.md",
@@ -190,8 +192,6 @@
     "Engines/New/Alerting Engine.md",
     "Engines/New/Data Ingestion Engine.md",
     "Engines/New/Optimization Engine.md",
-    "Engines/New/Security Engine.md",
-    "Engines/New/Statistical Analysis Engine.md",
     "Engines/Existing",
     "Engines/New",
     "Gems/Existing",
