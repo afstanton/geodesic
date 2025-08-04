@@ -2,6 +2,10 @@
 
 This directory contains documentation for third-party Rails engines that could accelerate development of the Business Intelligence and Marketing Analytics SaaS applications.
 
+## Administration Engines
+
+- **[[Administrate]]** - A flexible dashboard for admin interfaces.
+
 ## Authentication & Authorization Engines
 
 - **[[Devise]]** - Comprehensive authentication solution with flexible modules
@@ -10,6 +14,10 @@ This directory contains documentation for third-party Rails engines that could a
 
 - **[[Spree Commerce]]** - Complete e-commerce platform with modular architecture
 - **[[Solidus]]** - Modern e-commerce platform with improved architecture and developer experience
+
+## Payment & Billing Engines
+
+- **[[Pay]]** - A Rails engine for handling payments with Stripe and Braintree.
 
 ## Evaluation Criteria
 
