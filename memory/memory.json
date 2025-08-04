@@ -55,6 +55,7 @@
 {"type":"entity","name":"RSpec Mocks","observations":["A test double framework for RSpec."],"entityType":"Ruby Gem"}
 {"type":"entity","name":"Webmock","observations":["A library for stubbing and setting expectations on HTTP requests."],"entityType":"Ruby Gem"}
 {"type":"entity","entityType":"Ruby Gem","name":"VCR","observations":["A library for recording and replaying HTTP interactions during tests."]}
+{"type":"entity","name":"Rolify","entityType":"Ruby Gem","observations":["Role management for Rails applications."]}
 {"type":"relation","from":"Aaron F Stanton","to":"Chemistry Doctorate","relationType":"earned"}
 {"type":"relation","from":"Aaron F Stanton","to":"Web Development Career","relationType":"has"}
 {"type":"relation","from":"Aaron F Stanton","to":"Current Financial Situation","relationType":"faces"}
@@ -211,3 +212,4 @@
 {"type":"relation","relationType":"uses","to":"RSpec Mocks","from":"Testing Strategy"}
 {"type":"relation","from":"Testing Strategy","relationType":"uses","to":"Webmock"}
 {"type":"relation","from":"Testing Strategy","relationType":"uses","to":"VCR"}
+{"type":"relation","from":"Security Engine","to":"Rolify","relationType":"uses"}

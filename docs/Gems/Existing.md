@@ -6,6 +6,7 @@ This directory contains documentation for Ruby gems that would accelerate develo
 
 ### Authentication & Authorization
 - **[[Pundit]]** - Policy-based authorization with explicit permission definitions
+- **[[Rolify]]** - Role management for Rails applications.
 
 ### Multi-tenancy & Data Management
 - **[[Apartment]]** - PostgreSQL schema-based multi-tenancy for data isolation
