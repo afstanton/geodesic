@@ -105,16 +105,18 @@ These projects provide existing code and engines but also represent the pattern 
 geodesic/
 ├── code/ruby/         # Development workspace with modular architecture
 ├── docs/             # Comprehensive planning and analysis documents
+│   ├── Analysis/     # Project analysis and planning documents
+│   └── Apps/         # Application-specific documentation
 ├── memory/           # Knowledge graph storage (currently being populated)
 └── .obsidian/        # Aaron uses Obsidian for note-taking
 ```
 
 **Key Documents:**
-- `docs/Baseline.md` - Current state assessment
-- `docs/Interim Goals.md` - Short-term objectives through 2025
-- `docs/Long Term Vision.md` - Ultimate billion-dollar goals
-- `docs/SaaS Factory Strategy.md` - Technical modular approach
-- `docs/Project Inventory.md` - Analysis of previous work
+- `docs/Analysis/Baseline.md` - Current state assessment
+- `docs/Analysis/Interim Goals.md` - Short-term objectives through 2025
+- `docs/Analysis/Long Term Vision.md` - Ultimate billion-dollar goals
+- `docs/Analysis/SaaS Factory Strategy.md` - Technical modular approach
+- `docs/Analysis/Project Inventory.md` - Analysis of previous work
 
 ## Knowledge Graph Context
 

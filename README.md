@@ -56,11 +56,13 @@ geodesic/
 │   └── rust/          # Rust projects (future)
 ├── docs/              # Documentation and planning
 │   ├── .obsidian/     # Obsidian vault configuration
-│   ├── Baseline.md    # Current state assessment
-│   ├── Interim Goals.md # Short-term objectives
-│   ├── Long Term Vision.md # Ultimate destination
-│   ├── SaaS Factory Strategy.md # Technical approach
-│   └── Project Inventory.md # Previous work analysis
+│   ├── Analysis/      # Project analysis and planning documents
+│   │   ├── Baseline.md    # Current state assessment
+│   │   ├── Interim Goals.md # Short-term objectives
+│   │   ├── Long Term Vision.md # Ultimate destination
+│   │   ├── SaaS Factory Strategy.md # Technical approach
+│   │   └── Project Inventory.md # Previous work analysis
+│   └── Apps/          # Application-specific documentation
 └── memory/            # Knowledge graph storage
 ```
 
