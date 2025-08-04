@@ -58,6 +58,7 @@
 {"type":"entity","name":"Rolify","entityType":"Ruby Gem","observations":["Role management for Rails applications."]}
 {"type":"entity","observations":["Intelligent search for Rails applications."],"name":"Searchkick","entityType":"Ruby Gem"}
 {"type":"entity","entityType":"Ruby Gem","name":"Sentry","observations":["Real-time error tracking and performance monitoring."]}
+{"type":"entity","entityType":"Ruby Gem","name":"Capybara","observations":["An acceptance test framework for web applications."]}
 {"type":"relation","from":"Aaron F Stanton","to":"Chemistry Doctorate","relationType":"earned"}
 {"type":"relation","from":"Aaron F Stanton","to":"Web Development Career","relationType":"has"}
 {"type":"relation","from":"Aaron F Stanton","to":"Current Financial Situation","relationType":"faces"}
@@ -219,3 +220,4 @@
 {"type":"relation","relationType":"uses","from":"Marketing Analytics SaaS","to":"Searchkick"}
 {"type":"relation","relationType":"uses","to":"Sentry","from":"Business Intelligence SaaS"}
 {"type":"relation","to":"Sentry","from":"Marketing Analytics SaaS","relationType":"uses"}
+{"type":"relation","relationType":"uses","to":"Capybara","from":"Testing Strategy"}

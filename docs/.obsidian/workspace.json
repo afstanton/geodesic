@@ -11,10 +11,10 @@
             "id": "78248e4c726cbee8",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -163,6 +163,7 @@
   },
   "active": "78248e4c726cbee8",
   "lastOpenFiles": [
+    "Gems/Existing/Capybara.md",
     "Gems/Existing/Sentry.md",
     "Gems/Existing/Searchkick.md",
     "Gems/Existing/Rolify.md",
@@ -191,7 +192,6 @@
     "Engines/Existing.md",
     "Engines/New/Alerting Engine.md",
     "Engines/New/Data Ingestion Engine.md",
-    "Engines/New/Optimization Engine.md",
     "Engines/Existing",
     "Engines/New",
     "Gems/Existing",
