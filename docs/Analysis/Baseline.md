@@ -47,10 +47,10 @@ See also: [[Interim Goals]], [[Long Term Vision]], [[SaaS Factory Strategy]]
 4. Maintain focus despite financial pressure
 
 ## Questions for Path Definition
-- What specific financial goal constitutes "Point B"? → See [[Interim Goals]] and [[Long Term Vision]]
-- Should we focus on immediate income generation vs. longer-term career rebuilding? → Analysis in [[SaaS Market Analysis: Marketing Analytics vs Business Intelligence]]
-- How can we best leverage the unique combination of advanced chemistry background + extensive web development experience? → See [[SaaS Factory Strategy]]
-- What are the fastest routes to $3k+/month sustainable income? → Detailed in [[Business Intelligence SaaS]] and [[Marketing Analytics SaaS]]
+- What specific financial goal constitutes "Point B"? → Answered in [[Interim Goals]] ($10k gross/month) and [[Long Term Vision]] ($1B+ net worth)
+- Should we focus on immediate income generation vs. longer-term career rebuilding? → Analysis completed in [[SaaS Market Analysis: Marketing Analytics vs Business Intelligence]] - focusing on immediate revenue with long-term scalability
+- How can we best leverage the unique combination of advanced chemistry background + extensive web development experience? → Strategy documented in [[SaaS Factory Strategy]] with specific applications in [[Business Intelligence SaaS]] and [[Marketing Analytics SaaS]]
+- What are the fastest routes to $3k+/month sustainable income? → **RESOLVED:** Business Intelligence SaaS identified as optimal path requiring $10k gross monthly to achieve financial independence
 
 ---
 *This baseline assessment serves as Point A in the geodesic calculation.*
