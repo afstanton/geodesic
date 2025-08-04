@@ -59,6 +59,22 @@
 {"type":"entity","observations":["Intelligent search for Rails applications."],"name":"Searchkick","entityType":"Ruby Gem"}
 {"type":"entity","entityType":"Ruby Gem","name":"Sentry","observations":["Real-time error tracking and performance monitoring."]}
 {"type":"entity","entityType":"Ruby Gem","name":"Capybara","observations":["An acceptance test framework for web applications."]}
+{"type":"entity","observations":["Provides clear definitions for key terms, acronyms, and strategic concepts."],"name":"Glossary","entityType":"Documentation"}
+{"type":"entity","observations":["Documents significant architectural decisions made during the Geodesic project."],"name":"ADRs","entityType":"Documentation"}
+{"type":"entity","entityType":"Documentation","observations":["Outlines the strategy for deploying and maintaining the Business Intelligence SaaS application in a production environment."],"name":"Deployment Strategy"}
+{"type":"entity","observations":["Amazon Web Services, a comprehensive cloud computing platform."],"entityType":"AWS Service","name":"AWS"}
+{"type":"entity","name":"EC2","observations":["Elastic Compute Cloud, provides resizable compute capacity in the cloud."],"entityType":"AWS Service"}
+{"type":"entity","entityType":"AWS Service","name":"RDS","observations":["Relational Database Service, simplifies setup, operation, and scaling of a relational database."]}
+{"type":"entity","name":"S3","observations":["Simple Storage Service, provides object storage built to store and retrieve any amount of data from anywhere."],"entityType":"AWS Service"}
+{"type":"entity","entityType":"AWS Service","observations":["Virtual Private Cloud, a logically isolated section of the AWS Cloud where you can launch AWS resources in a virtual network that you define."],"name":"VPC"}
+{"type":"entity","entityType":"AWS Service","observations":["A scalable cloud Domain Name System (DNS) web service."],"name":"Route 53"}
+{"type":"entity","observations":["Application Load Balancer, distributes incoming application traffic across multiple targets."],"entityType":"AWS Service","name":"ALB"}
+{"type":"entity","name":"CloudWatch","entityType":"AWS Service","observations":["A monitoring and observability service built for DevOps engineers, developers, and IT managers."]}
+{"type":"entity","entityType":"AWS Service","name":"ECS","observations":["Elastic Container Service, a highly scalable, high-performance container orchestration service."]}
+{"type":"entity","name":"EKS","entityType":"AWS Service","observations":["Elastic Kubernetes Service, a managed Kubernetes service to run Kubernetes on AWS without needing to install, operate, and maintain your own Kubernetes control plane or nodes."]}
+{"type":"entity","entityType":"AWS Service","name":"ElastiCache","observations":["A fully managed in-memory data store compatible with Redis and Memcached."]}
+{"type":"entity","observations":["A serverless compute service that lets you run code without provisioning or managing servers."],"entityType":"AWS Service","name":"AWS Lambda"}
+{"type":"entity","entityType":"Tool","observations":["A CI/CD platform that allows you to automate your build, test, and deployment pipeline."],"name":"GitHub Actions"}
 {"type":"relation","from":"Aaron F Stanton","to":"Chemistry Doctorate","relationType":"earned"}
 {"type":"relation","from":"Aaron F Stanton","to":"Web Development Career","relationType":"has"}
 {"type":"relation","from":"Aaron F Stanton","to":"Current Financial Situation","relationType":"faces"}
@@ -221,3 +237,21 @@
 {"type":"relation","relationType":"uses","to":"Sentry","from":"Business Intelligence SaaS"}
 {"type":"relation","to":"Sentry","from":"Marketing Analytics SaaS","relationType":"uses"}
 {"type":"relation","relationType":"uses","to":"Capybara","from":"Testing Strategy"}
+{"type":"relation","to":"Glossary","relationType":"documented_by","from":"Geodesic"}
+{"type":"relation","relationType":"documented_by","to":"ADRs","from":"Geodesic"}
+{"type":"relation","relationType":"deployed_using","to":"Deployment Strategy","from":"Business Intelligence SaaS"}
+{"type":"relation","from":"Deployment Strategy","relationType":"uses","to":"AWS"}
+{"type":"relation","from":"Deployment Strategy","relationType":"uses","to":"EC2"}
+{"type":"relation","relationType":"uses","to":"RDS","from":"Deployment Strategy"}
+{"type":"relation","from":"Deployment Strategy","to":"S3","relationType":"uses"}
+{"type":"relation","relationType":"uses","to":"VPC","from":"Deployment Strategy"}
+{"type":"relation","to":"Route 53","from":"Deployment Strategy","relationType":"uses"}
+{"type":"relation","from":"Deployment Strategy","to":"ALB","relationType":"uses"}
+{"type":"relation","from":"Deployment Strategy","to":"CloudWatch","relationType":"uses"}
+{"type":"relation","from":"Deployment Strategy","relationType":"uses","to":"ECS"}
+{"type":"relation","to":"EKS","from":"Deployment Strategy","relationType":"uses"}
+{"type":"relation","from":"Deployment Strategy","to":"ElastiCache","relationType":"uses"}
+{"type":"relation","from":"Deployment Strategy","relationType":"uses","to":"GitHub Actions"}
+{"type":"relation","from":"Deployment Strategy","to":"AWS Lambda","relationType":"uses"}
+{"type":"relation","from":"Deployment Strategy","to":"Testing Strategy","relationType":"integrates_with"}
+{"type":"relation","from":"Deployment Strategy","to":"Sentry","relationType":"integrates_with"}
