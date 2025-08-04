@@ -11,10 +11,14 @@
             "id": "55b181cfd1e48e20",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Engines/Existing.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Existing"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Engines/Existing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Existing"
             }
           },
           {
@@ -108,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Engines/Existing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Existing"
             }
           },
           {
@@ -136,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Engines/Existing.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Existing"
             }
           }
         ]
@@ -163,36 +170,39 @@
   },
   "active": "55b181cfd1e48e20",
   "lastOpenFiles": [
+    "Gems/Existing.md",
+    "Engines/Existing/Solidus.md",
+    "Engines/Existing/Spree Commerce.md",
+    "Engines/Existing/Pay.md",
+    "Engines/Existing/Devise.md",
+    "Engines/Existing/Administrate.md",
+    "Engines/Existing.md",
+    "Gems/Existing/Blazer.md",
+    "Gems/Existing/PgHero.md",
+    "Gems/Existing/Kredis.md",
+    "Gems/Existing/Faraday.md",
+    "Gems/Existing/Dry-rb.md",
+    "Gems/Existing/Ahoy.md",
+    "Gems/Existing/ETL.md",
+    "Gems/Existing/Pundit.md",
+    "Gems/Existing/Scenic.md",
+    "Gems/Existing/CanCanCan.md",
+    "Gems/Existing/Good Job.md",
+    "Gems/Existing/Noticed.md",
+    "Gems/Existing/Kaminari.md",
+    "Gems/Existing/Groupdate.md",
+    "Gems/Existing/Chartkick.md",
+    "Gems/Existing/Apartment.md",
+    "Gems/Existing/Stripe.md",
+    "Gems/Existing/Sidekiq.md",
+    "Gems/Existing/Ransack.md",
     "Engines/Existing",
     "Engines/New",
     "Gems/Existing",
     "Gems/New",
     "Gems",
     "Engines",
-    "Apps/Business Intelligence SaaS.md",
-    "Apps/Marketing Analytics SaaS.md",
     "Apps",
-    "Analysis/SaaS Market Analysis: Marketing Analytics vs Business Intelligence.md",
-    "Analysis/SaaS Factory Strategy.md",
-    "Analysis/Project Inventory.md",
-    "Analysis/Long Term Vision.md",
-    "Analysis/Interim Goals.md",
-    "Analysis/Baseline.md",
-    "Analysis/Asymmetric SaaS Opportunities for Advanced Analytics + Rails.md",
-    "Analysis",
-    "SaaS Market Analysis: Marketing Analytics vs Business Intelligence.md",
-    "compass_artifact_wf-475d1d64-e786-40d5-b2f6-2452e3f68b7f_text_markdown.md",
-    "Asymmetric SaaS Opportunities for Advanced Analytics + Rails.md",
-    "compass_artifact_wf-1bbb21a8-ee63-4b7d-9283-ed66b7e3705c_text_markdown.md",
-    "Project Inventory.md",
-    "project-inventory.md",
-    "SaaS Factory Strategy.md",
-    "Long Term Vision.md",
-    "Interim Goals.md",
-    "Baseline.md",
-    "saas-factory-strategy.md",
-    "long-term-vision.md",
-    "interim-goals.md",
-    "baseline.md"
+    "Analysis"
   ]
 }

@@ -85,7 +85,11 @@ geodesic/
 │   │   ├── Long Term Vision.md # Ultimate destination
 │   │   ├── SaaS Factory Strategy.md # Technical approach
 │   │   └── Project Inventory.md # Previous work analysis
-│   └── Apps/          # Application-specific documentation
+│   ├── Apps/          # Application-specific documentation
+│   ├── Engines/       # Rails engine documentation
+│   │   └── Existing/  # Third-party engines for evaluation
+│   └── Gems/          # Ruby gem documentation
+│       └── Existing/  # Third-party gems for evaluation
 └── memory/            # Knowledge graph storage
 ```
 
@@ -105,6 +109,10 @@ geodesic/
 ### Implementation Plans
 - **[[docs/Apps/Business Intelligence SaaS]]** - Recommended faster-to-market option
 - **[[docs/Apps/Marketing Analytics SaaS]]** - Alternative higher-growth option
+
+### Technical Components
+- **[[docs/Engines/Existing/]]** - Third-party Rails engines for evaluation and integration
+- **[[docs/Gems/Existing/]]** - Ruby gems for accelerated development
 
 ## Current Focus
 
