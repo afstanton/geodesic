@@ -5,7 +5,7 @@
 **Revenue Target:** $800-4,000/month per customer  
 **Development Timeline:** 4-6 months MVP, 12-24 months full MMM capabilities
 
-**Project Context:** [[SaaS Factory Strategy]] | Alternative: [[Business Intelligence SaaS]] | Analysis: [[SaaS Market Analysis - Marketing Analytics vs Business Intelligence]]
+**Project Context:** [[SaaS Factory Strategy]] | Alternative: [[Business Intelligence SaaS]] | Analysis: [[SaaS Market Analysis: Marketing Analytics vs Business Intelligence]]
 
 ## Strategic Overview
 
@@ -227,4 +227,4 @@ Aligns with [[Interim Goals]] timeline and [[Long Term Vision]] wealth targets.
 3. **Dashboard Interface** (user experience) - clean, insightful reporting
 4. **Integration APIs** (market requirement) - seamless data connections
 
-This marketing analytics platform represents the higher-risk, higher-reward path with stronger competitive moats through advanced statistical modeling, but requires longer development timeline and more complex technical implementation. See [[Business Intelligence SaaS]] for the alternative faster-to-market approach, or [[SaaS Market Analysis - Marketing Analytics vs Business Intelligence]] for detailed comparison.
+This marketing analytics platform represents the higher-risk, higher-reward path with stronger competitive moats through advanced statistical modeling, but requires longer development timeline and more complex technical implementation. See [[Business Intelligence SaaS]] for the alternative faster-to-market approach, or [[SaaS Market Analysis: Marketing Analytics vs Business Intelligence]] for detailed comparison.

@@ -1,6 +1,7 @@
 # Project Inventory & Technical Arbitrage Analysis
 
-Foundation: [[Baseline]] | Strategy: [[SaaS Factory Strategy]] | Current Options: [[Business Intelligence SaaS]], [[Marketing Analytics SaaS]]
+Foundation: [[Baseline]] | Strategy: [[SaaS Factory Strategy]] | Current Options: [[Business Intelligence SaaS]], [[Marketing Analytics SaaS]]  
+Initial Research: [[Asymmetric SaaS Opportunities for Advanced Analytics + Rails]]
 
 ## The Pattern Recognition
 Aaron has identified a crucial pattern:

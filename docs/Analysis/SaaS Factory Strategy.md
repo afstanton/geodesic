@@ -2,7 +2,8 @@
 
 **Core Innovation:** Modular, combinatorial approach to SaaS development
 
-Context: [[Baseline]] → [[Interim Goals]] → [[Long Term Vision]] | Examples: [[Business Intelligence SaaS]], [[Marketing Analytics SaaS]]
+Context: [[Baseline]] → [[Interim Goals]] → [[Long Term Vision]] | Examples: [[Business Intelligence SaaS]], [[Marketing Analytics SaaS]]  
+Research Foundation: [[Asymmetric SaaS Opportunities for Advanced Analytics + Rails]]
 
 ## The Problem with Traditional SaaS Development
 - Most companies rebuild common functionality from scratch for each app
