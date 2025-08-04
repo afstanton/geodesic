@@ -15,5 +15,5 @@
 
 - **Models**: `Role`, `Permission`, `AuditLog`.
 - **Controllers**: Controllers for managing roles and permissions.
-- **Authorization Adapter**: An adapter to integrate with an authorization gem like `Pundit`.
-- **Dependencies**: `Devise`, `Pundit` or `CanCanCan`.
+- **Authorization Adapter**: An adapter to integrate with an authorization gem like [[Pundit]].
+- **Dependencies**: [[Devise]] (Engine) and [[Pundit]].

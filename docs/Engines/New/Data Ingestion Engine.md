@@ -23,5 +23,5 @@
 
 - **Models**: `DataSource`, `Credential`, `IngestionJob`, `FieldMapping`.
 - **Controllers**: Admin-facing controllers for managing data sources and jobs.
-- **Jobs**: Background jobs (using Sidekiq or Good Job) to perform the ETL work.
-- **Dependencies**: `Faraday` for API connections, a background job processor.
+- **Jobs**: Background jobs (using [[Sidekiq]]) to perform the ETL work.
+- **Dependencies**: `Faraday` for API connections, `Sidekiq` for background processing, and the [[ETL]] gem for core processing logic.

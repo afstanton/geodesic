@@ -138,3 +138,58 @@
 {"type":"relation","from":"SaaS Factory Model","relationType":"composed_of","to":"Optimization Engine"}
 {"type":"relation","from":"Statistical Analysis Engine","relationType":"uses","to":"External Script Runner"}
 {"type":"relation","relationType":"uses","from":"Data Ingestion Engine","to":"API Client Builder"}
+{"type":"relation","from":"SaaS Factory Model","relationType":"composed_of","to":"External Script Runner"}
+{"type":"relation","to":"API Client Builder","relationType":"composed_of","from":"SaaS Factory Model"}
+{"type":"relation","to":"Pundit","from":"Business Intelligence SaaS","relationType":"uses"}
+{"type":"relation","to":"Apartment","relationType":"uses","from":"Business Intelligence SaaS"}
+{"type":"relation","relationType":"uses","from":"Business Intelligence SaaS","to":"Good Job"}
+{"type":"relation","from":"Business Intelligence SaaS","relationType":"uses","to":"Dry-rb"}
+{"type":"relation","from":"Business Intelligence SaaS","relationType":"uses","to":"Scenic"}
+{"type":"relation","relationType":"uses","from":"Business Intelligence SaaS","to":"Chartkick"}
+{"type":"relation","relationType":"uses","to":"Groupdate","from":"Business Intelligence SaaS"}
+{"type":"relation","from":"Business Intelligence SaaS","relationType":"uses","to":"Kaminari"}
+{"type":"relation","to":"Ransack","from":"Business Intelligence SaaS","relationType":"uses"}
+{"type":"relation","from":"Business Intelligence SaaS","to":"Blazer","relationType":"uses"}
+{"type":"relation","from":"Business Intelligence SaaS","to":"PgHero","relationType":"uses"}
+{"type":"relation","relationType":"uses","from":"Business Intelligence SaaS","to":"Kredis"}
+{"type":"relation","from":"Business Intelligence SaaS","to":"Faraday","relationType":"uses"}
+{"type":"relation","relationType":"uses","from":"Business Intelligence SaaS","to":"Stripe"}
+{"type":"relation","from":"Business Intelligence SaaS","to":"Noticed","relationType":"uses"}
+{"type":"relation","to":"Ahoy","from":"Business Intelligence SaaS","relationType":"uses"}
+{"type":"relation","to":"Draper","from":"Business Intelligence SaaS","relationType":"uses"}
+{"type":"relation","to":"CanCanCan","relationType":"uses","from":"Marketing Analytics SaaS"}
+{"type":"relation","relationType":"uses","to":"Apartment","from":"Marketing Analytics SaaS"}
+{"type":"relation","from":"Marketing Analytics SaaS","relationType":"uses","to":"Sidekiq"}
+{"type":"relation","relationType":"uses","from":"Marketing Analytics SaaS","to":"Dry-rb"}
+{"type":"relation","relationType":"uses","from":"Marketing Analytics SaaS","to":"ETL"}
+{"type":"relation","from":"Marketing Analytics SaaS","to":"Scenic","relationType":"uses"}
+{"type":"relation","to":"Groupdate","relationType":"uses","from":"Marketing Analytics SaaS"}
+{"type":"relation","from":"Marketing Analytics SaaS","to":"Faraday","relationType":"uses"}
+{"type":"relation","to":"Chartkick","from":"Marketing Analytics SaaS","relationType":"uses"}
+{"type":"relation","to":"Ransack","from":"Marketing Analytics SaaS","relationType":"uses"}
+{"type":"relation","from":"Marketing Analytics SaaS","to":"Kaminari","relationType":"uses"}
+{"type":"relation","to":"Blazer","relationType":"uses","from":"Marketing Analytics SaaS"}
+{"type":"relation","to":"Kredis","from":"Marketing Analytics SaaS","relationType":"uses"}
+{"type":"relation","from":"Marketing Analytics SaaS","to":"PgHero","relationType":"uses"}
+{"type":"relation","relationType":"uses","to":"Stripe","from":"Marketing Analytics SaaS"}
+{"type":"relation","relationType":"uses","to":"Noticed","from":"Marketing Analytics SaaS"}
+{"type":"relation","to":"Ahoy","relationType":"uses","from":"Marketing Analytics SaaS"}
+{"type":"relation","relationType":"uses","to":"Draper","from":"Marketing Analytics SaaS"}
+{"type":"relation","to":"ETL","relationType":"uses","from":"Data Ingestion Engine"}
+{"type":"relation","relationType":"uses","from":"Statistical Analysis Engine","to":"Sidekiq"}
+{"type":"relation","from":"Statistical Analysis Engine","to":"Kredis","relationType":"uses"}
+{"type":"relation","from":"Statistical Analysis Engine","relationType":"uses","to":"Dry-rb"}
+{"type":"relation","from":"Visualization Engine","to":"Chartkick","relationType":"uses"}
+{"type":"relation","from":"Visualization Engine","relationType":"uses","to":"Groupdate"}
+{"type":"relation","relationType":"uses","from":"Visualization Engine","to":"Kaminari"}
+{"type":"relation","relationType":"uses","to":"Ransack","from":"Visualization Engine"}
+{"type":"relation","to":"Draper","relationType":"uses","from":"Visualization Engine"}
+{"type":"relation","from":"Alerting Engine","relationType":"uses","to":"Sidekiq"}
+{"type":"relation","relationType":"uses","to":"Noticed","from":"Alerting Engine"}
+{"type":"relation","to":"Devise","relationType":"uses","from":"Security Engine"}
+{"type":"relation","from":"Security Engine","to":"Pundit","relationType":"uses"}
+{"type":"relation","to":"Sidekiq","from":"Optimization Engine","relationType":"uses"}
+{"type":"relation","relationType":"uses","to":"Kredis","from":"Optimization Engine"}
+{"type":"relation","relationType":"uses","to":"Dry-rb","from":"Optimization Engine"}
+{"type":"relation","to":"External Script Runner","relationType":"uses","from":"Optimization Engine"}
+{"type":"relation","relationType":"uses","from":"API Client Builder","to":"Faraday"}

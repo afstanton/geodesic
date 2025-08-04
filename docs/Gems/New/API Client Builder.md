@@ -15,6 +15,6 @@
 ## Technical Design
 
 - A base class (e.g., `ApiClient::Base`) that other clients can inherit from.
-- Uses `Faraday` for the underlying HTTP requests.
+- Uses [[Faraday]] for the underlying HTTP requests.
 - Service classes to encapsulate authentication and pagination logic.
 - No models or controllers.

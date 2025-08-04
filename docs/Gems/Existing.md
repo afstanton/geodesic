@@ -5,7 +5,6 @@ This directory contains documentation for Ruby gems that would accelerate develo
 ## Core Infrastructure Gems
 
 ### Authentication & Authorization
-- **[[CanCanCan]]** - Authorization library with simple ability definitions
 - **[[Pundit]]** - Policy-based authorization with explicit permission definitions
 
 ### Multi-tenancy & Data Management
@@ -14,7 +13,6 @@ This directory contains documentation for Ruby gems that would accelerate develo
 
 ### Background Processing
 - **[[Sidekiq]]** - High-performance Redis-based background job processing
-- **[[Good Job]]** - PostgreSQL-based background job processor (simpler infrastructure)
 
 ## Analytics & Visualization Gems
 
@@ -25,6 +23,7 @@ This directory contains documentation for Ruby gems that would accelerate develo
 
 ### Visualization & UI
 - **[[Chartkick]]** - Simple, powerful charts using Chart.js, Google Charts, or Highcharts
+- **[[Draper]]** - Adds a presentation layer to your Rails app.
 - **[[Kaminari]]** - Clean, customizable pagination for large datasets
 - **[[Ransack]]** - Advanced search and filtering for data-heavy applications
 - **[[Blazer]]** - Business intelligence and SQL-based reporting interface
@@ -73,9 +72,9 @@ The modular approach allows selective integration based on specific application 
 
 ### Business Intelligence SaaS Stack
 **Core Infrastructure:**
-- [[Devise]] + [[Pundit]] - Authentication and granular authorization
+- [[Devise]] (Engine) + [[Pundit]] - Authentication and granular authorization
 - [[Apartment]] - Multi-tenant data isolation
-- [[Good Job]] - Background processing for ETL operations
+- [[Sidekiq]] - Background processing for ETL operations
 - [[Dry-rb]] - Robust business logic and validation
 
 **Analytics & Visualization:**
@@ -96,7 +95,7 @@ The modular approach allows selective integration based on specific application 
 
 ### Marketing Analytics SaaS Stack
 **Core Infrastructure:**
-- [[Devise]] + [[CanCanCan]] - Authentication and role-based access
+- [[Devise]] (Engine) + [[Pundit]] - Authentication and role-based access
 - [[Apartment]] - Customer data isolation
 - [[Sidekiq]] - High-performance data processing
 - [[Dry-rb]] - Reliable attribution calculations

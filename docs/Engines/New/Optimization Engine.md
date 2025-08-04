@@ -17,4 +17,5 @@
 
 - **Models**: `OptimizationProblem`, `Scenario`, `Solution`.
 - **Services**: Service objects to encapsulate the optimization logic.
-- **Integration**: Potential integration with external solvers like Gurobi or CPLEX, or open-source alternatives.
+- **Integration**: Potential integration with external solvers like Gurobi or CPLEX, or open-source alternatives, likely using the [[External Script Runner]] gem.
+- **Dependencies**: [[Sidekiq]] for running complex calculations in the background, [[Kredis]] for caching results, and [[Dry-rb]] for robust business logic.

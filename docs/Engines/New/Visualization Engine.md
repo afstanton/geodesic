@@ -22,4 +22,4 @@
 - **Frontend**: Heavy reliance on a JavaScript framework like React or Vue.js, with a library like D3.js for custom visualizations.
 - **Backend**: A Rails API to provide data to the frontend visualizations.
 - **Models**: `Dashboard`, `Widget`, `ChartConfiguration`.
-- **Dependencies**: `Chartkick` for simple charts, but will likely need a more powerful JS library for advanced visualizations.
+- **Dependencies**: [[Chartkick]] for simple charts, [[Groupdate]] for time-series grouping, [[Kaminari]] for pagination, [[Ransack]] for filtering, and [[Draper]] for presentation logic.

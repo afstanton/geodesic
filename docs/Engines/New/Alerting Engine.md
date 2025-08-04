@@ -19,5 +19,5 @@
 ## Technical Design
 
 - **Models**: `AlertRule`, `Alert`, `NotificationChannel`.
-- **Jobs**: Background jobs to continuously evaluate alert rules against the data.
-- **Dependencies**: `Noticed` for sending notifications.
+- **Jobs**: Background jobs (using [[Sidekiq]]) to continuously evaluate alert rules against the data.
+- **Dependencies**: [[Noticed]] for sending notifications.
