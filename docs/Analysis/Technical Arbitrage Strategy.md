@@ -23,9 +23,9 @@ The following areas have been identified as prime targets for this strategy:
 
 -   **Marketing Mix Modeling (MMM)**: As discovered during the Ad-Optimizer project, adding MMM capabilities can increase a SaaS product's value from hundreds to thousands of dollars per month. This involves complex statistical modeling that most developers cannot perform.
 -   **Advanced Business Intelligence**: Moving beyond simple data visualization to provide predictive forecasting, anomaly detection, and prescriptive analytics. This is the foundation of the [[Business Intelligence SaaS]].
--   **Operations Research & Supply Chain Optimization**: Applying mathematical optimization techniques to solve complex business problems like inventory management, logistics, and resource allocation. This is the focus of the [[Optimization Engine]].
+-   **Operations Research & Supply Chain Optimization**: Applying mathematical optimization techniques to solve complex business problems like inventory management, logistics, and resource allocation. This is the focus of the [[Optimus]].
 -   **Cross-Platform Integrations**: Building complex integrations that require a deep understanding of multiple systems and protocols.
 
 ## Implementation
 
-This strategy is implemented through the development of custom engines like the [[Statistical Analysis Engine]] and the [[Optimization Engine]]. These engines are designed to be the core differentiators in Geodesic's SaaS products, providing capabilities that are difficult and expensive for competitors to replicate.
+This strategy is implemented through the development of custom engines like the [[Quant]] and the [[Optimus]]. These engines are designed to be the core differentiators in Geodesic's SaaS products, providing capabilities that are difficult and expensive for competitors to replicate.

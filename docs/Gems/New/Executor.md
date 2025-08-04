@@ -2,7 +2,7 @@
 
 **Purpose**: To provide a simple and robust way to execute external scripts (e.g., R, Python) from a Ruby application, handling data serialization and error reporting.
 
-**Related To**: [[Statistical Analysis Engine]]
+**Related To**: [[Quant]]
 
 ## Core Features
 

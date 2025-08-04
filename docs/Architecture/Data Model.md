@@ -10,19 +10,19 @@
 
 This section defines the key models that are shared or have significant relationships across different engines.
 
-### User (from [[Security Engine]])
+### User (from [[Aegis]])
 
 - **`id`**: Primary key
 - **`email`**: String
 - **`encrypted_password`**: String
 - **`role_id`**: Foreign key to `Role`
 
-### Role (from [[Security Engine]])
+### Role (from [[Aegis]])
 
 - **`id`**: Primary key
 - **`name`**: String (e.g., "admin", "user")
 
-### DataSource (from [[Data Ingestion Engine]])
+### DataSource (from [[Conduit]])
 
 - **`id`**: Primary key
 - **`name`**: String
@@ -30,20 +30,20 @@ This section defines the key models that are shared or have significant relation
 - **`credentials`**: Encrypted text
 - **`user_id`**: Foreign key to `User`
 
-### Dashboard (from [[Visualization Engine]])
+### Dashboard (from [[Canvas]])
 
 - **`id`**: Primary key
 - **`name`**: String
 - **`user_id`**: Foreign key to `User`
 
-### Widget (from [[Visualization Engine]])
+### Widget (from [[Canvas]])
 
 - **`id`**: Primary key
 - **`dashboard_id`**: Foreign key to `Dashboard`
 - **`chart_type`**: String (e.g., "line", "bar")
 - **`query`**: Text
 
-### Alert (from [[Alerting Engine]])
+### Alert (from [[Sentinel]])
 
 - **`id`**: Primary key
 - **`name`**: String

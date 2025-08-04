@@ -27,7 +27,7 @@
 
 ## Production Environment Considerations
 
-- **Security**: Implement strict [[Security Engine]] policies, network security groups, IAM roles, and regular security audits.
+- **Security**: Implement strict [[Aegis]] policies, network security groups, IAM roles, and regular security audits.
 - **Scalability**: Design for horizontal scaling of application servers and background job workers. Utilize AWS auto-scaling groups.
 - **Monitoring & Alerting**: Comprehensive monitoring with [[Sentry]] and [[CloudWatch]] for application health, performance, and error rates. Set up alerts for critical issues.
 - **Logging**: Centralized logging solution (e.g., CloudWatch Logs, or a dedicated logging service) for easy debugging and auditing.

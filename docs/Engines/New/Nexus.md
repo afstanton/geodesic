@@ -7,7 +7,7 @@
 ## Core Features
 
 - **API Definition & Management**: Tools for defining, documenting, and managing API endpoints.
-- **Authentication & Authorization**: Secure access control for API consumers, integrating with the [[Security Engine]].
+- **Authentication & Authorization**: Secure access control for API consumers, integrating with the [[Aegis]].
 - **Rate Limiting & Throttling**: Protect APIs from abuse and ensure fair usage.
 - **Request/Response Transformation**: Modify data formats between internal services and external API consumers.
 - **API Versioning**: Support for managing different versions of APIs.
@@ -18,5 +18,5 @@
 
 - **Models**: `ApiEndpoint`, `ApiKey`, `ApiSubscription`.
 - **Controllers**: API-specific controllers for handling external requests.
-- **Integration**: Deep integration with the [[Security Engine]] for authentication and authorization.
+- **Integration**: Deep integration with the [[Aegis]] for authentication and authorization.
 - **Dependencies**: [[Grape]] for API definition, [[Rack-Attack]] for rate limiting, [[Doorkeeper]] for OAuth2, and [[Faraday]] for internal service communication.

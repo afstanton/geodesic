@@ -5,7 +5,7 @@
 ## Testing Levels
 
 - **Unit Tests**: Each class and method should have comprehensive unit tests to verify its individual behavior. These tests should be fast and isolated.
-- **Integration Tests**: These tests will verify the interactions between different components, particularly between engines. For example, an integration test might verify that a user from the [[Security Engine]] can create a dashboard in the [[Visualization Engine]].
+- **Integration Tests**: These tests will verify the interactions between different components, particularly between engines. For example, an integration test might verify that a user from the [[Aegis]] can create a dashboard in the [[Canvas]].
 - **End-to-End (E2E) Tests**: These tests will simulate real user scenarios from the browser, using a tool like Cypress or Capybara. They will cover the critical user flows defined in [[User Flows]].
 
 ## Tooling

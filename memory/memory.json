@@ -38,14 +38,6 @@
 {"type":"entity","observations":["Complete e-commerce platform with modular architecture","For architectural reference"],"name":"Spree Commerce","entityType":"Rails Engine"}
 {"type":"entity","entityType":"Rails Engine","observations":["Modern e-commerce platform with improved architecture and developer experience","For architectural reference"],"name":"Solidus"}
 {"type":"entity","observations":["Architectural Compatibility - Does it align with the modular SaaS Factory Strategy?","Customization Flexibility - Can it be adapted for specific business requirements?","Maintenance Burden - Is it actively maintained with good community support?","Performance Impact - Will it affect application performance significantly?","Integration Complexity - How difficult is it to integrate with existing systems?","License Compatibility - Does the license allow for commercial SaaS use?"],"name":"Engine Evaluation Criteria","entityType":"Framework"}
-{"type":"entity","observations":["Manages ETL processes, data source connections, and data mapping."],"name":"Data Ingestion Engine","entityType":"Rails Engine"}
-{"type":"entity","entityType":"Rails Engine","name":"Statistical Analysis Engine","observations":["Provides advanced statistical modeling and analytical capabilities."]}
-{"type":"entity","entityType":"Rails Engine","observations":["Powers interactive dashboards and complex data visualizations."],"name":"Visualization Engine"}
-{"type":"entity","name":"Alerting Engine","observations":["Handles anomaly detection and user notification logic."],"entityType":"Rails Engine"}
-{"type":"entity","name":"Security Engine","entityType":"Rails Engine","observations":["Manages application-level security, roles, and permissions."]}
-{"type":"entity","name":"Optimization Engine","entityType":"Rails Engine","observations":["Provides operations research and mathematical optimization capabilities."]}
-{"type":"entity","observations":["A gem for running external scripts (like R or Python) and handling data exchange."],"name":"External Script Runner","entityType":"Ruby Gem"}
-{"type":"entity","name":"API Client Builder","entityType":"Ruby Gem","observations":["A gem for creating standardized clients for third-party APIs."]}
 {"type":"entity","entityType":"Documentation","observations":["Outlines the phased development plan for the Business Intelligence SaaS."],"name":"Development Roadmap"}
 {"type":"entity","entityType":"Documentation","name":"Data Model","observations":["Defines the high-level data model for the Business Intelligence SaaS."]}
 {"type":"entity","observations":["Outlines the core user experiences and interaction flows for the Business Intelligence SaaS."],"entityType":"Documentation","name":"User Flows"}
@@ -75,8 +67,6 @@
 {"type":"entity","entityType":"AWS Service","name":"ElastiCache","observations":["A fully managed in-memory data store compatible with Redis and Memcached."]}
 {"type":"entity","observations":["A serverless compute service that lets you run code without provisioning or managing servers."],"entityType":"AWS Service","name":"AWS Lambda"}
 {"type":"entity","entityType":"Tool","observations":["A CI/CD platform that allows you to automate your build, test, and deployment pipeline."],"name":"GitHub Actions"}
-{"type":"entity","entityType":"Rails Engine","name":"API Gateway Engine","observations":["Provides a standardized way to expose application functionality via APIs for third-party developers."]}
-{"type":"entity","entityType":"Rails Engine","observations":["Offers a unified interface for integrating with various Machine Learning/AI Platform services."],"name":"MCP Gateway Engine"}
 {"type":"entity","name":"Grape","entityType":"Ruby Gem","observations":["A REST-like API framework for Ruby."]}
 {"type":"entity","observations":["Rack middleware for blocking and throttling abusive requests."],"name":"Rack-Attack","entityType":"Ruby Gem"}
 {"type":"entity","entityType":"Ruby Gem","name":"Doorkeeper","observations":["An OAuth2 provider for Rails."]}
@@ -85,6 +75,16 @@
 {"type":"entity","entityType":"Ruby Gem","name":"RubyLLM","observations":["A Ruby library for interacting with large language models."]}
 {"type":"entity","entityType":"Ruby Gem","observations":["A Ruby library for interacting with LLM-based multi-cloud platforms."],"name":"RubyLLM-MCP"}
 {"type":"entity","name":"RubyLLM-Schema","observations":["A Ruby library for defining and validating LLM schemas."],"entityType":"Ruby Gem"}
+{"type":"entity","name":"Conduit","observations":["Manages ETL processes, data source connections, and data mapping."],"entityType":"Rails Engine"}
+{"type":"entity","observations":["Provides advanced statistical modeling and analytical capabilities."],"name":"Quant","entityType":"Rails Engine"}
+{"type":"entity","name":"Canvas","observations":["Powers interactive dashboards and complex data visualizations."],"entityType":"Rails Engine"}
+{"type":"entity","observations":["Handles anomaly detection and user notification logic."],"entityType":"Rails Engine","name":"Sentinel"}
+{"type":"entity","name":"Aegis","observations":["Manages application-level security, roles, and permissions."],"entityType":"Rails Engine"}
+{"type":"entity","entityType":"Rails Engine","observations":["Provides operations research and mathematical optimization capabilities."],"name":"Optimus"}
+{"type":"entity","observations":["Provides a standardized way to expose application functionality via APIs for third-party developers."],"entityType":"Rails Engine","name":"Nexus"}
+{"type":"entity","entityType":"Rails Engine","name":"Synapse","observations":["Offers a unified interface for integrating with various Machine Learning/AI Platform services."]}
+{"type":"entity","entityType":"Ruby Gem","name":"Executor","observations":["A gem for running external scripts (like R or Python) and handling data exchange."]}
+{"type":"entity","name":"Connector","entityType":"Ruby Gem","observations":["A gem for creating standardized clients for third-party APIs."]}
 {"type":"relation","from":"Aaron F Stanton","to":"Chemistry Doctorate","relationType":"earned"}
 {"type":"relation","from":"Aaron F Stanton","to":"Web Development Career","relationType":"has"}
 {"type":"relation","from":"Aaron F Stanton","to":"Current Financial Situation","relationType":"faces"}
@@ -160,25 +160,6 @@
 {"type":"relation","relationType":"draws_inspiration_from","to":"Spree Commerce","from":"SaaS Factory Model"}
 {"type":"relation","to":"Solidus","relationType":"draws_inspiration_from","from":"SaaS Factory Model"}
 {"type":"relation","from":"SaaS Factory Model","relationType":"uses","to":"Engine Evaluation Criteria"}
-{"type":"relation","from":"Business Intelligence SaaS","to":"Data Ingestion Engine","relationType":"requires"}
-{"type":"relation","relationType":"requires","to":"Statistical Analysis Engine","from":"Business Intelligence SaaS"}
-{"type":"relation","relationType":"requires","to":"Visualization Engine","from":"Business Intelligence SaaS"}
-{"type":"relation","to":"Alerting Engine","relationType":"requires","from":"Business Intelligence SaaS"}
-{"type":"relation","relationType":"requires","from":"Business Intelligence SaaS","to":"Security Engine"}
-{"type":"relation","to":"Optimization Engine","from":"Business Intelligence SaaS","relationType":"requires"}
-{"type":"relation","from":"Marketing Analytics SaaS","relationType":"requires","to":"Data Ingestion Engine"}
-{"type":"relation","relationType":"requires","to":"Statistical Analysis Engine","from":"Marketing Analytics SaaS"}
-{"type":"relation","to":"Visualization Engine","from":"Marketing Analytics SaaS","relationType":"requires"}
-{"type":"relation","to":"Data Ingestion Engine","relationType":"composed_of","from":"SaaS Factory Model"}
-{"type":"relation","to":"Statistical Analysis Engine","relationType":"composed_of","from":"SaaS Factory Model"}
-{"type":"relation","from":"SaaS Factory Model","relationType":"composed_of","to":"Visualization Engine"}
-{"type":"relation","to":"Alerting Engine","from":"SaaS Factory Model","relationType":"composed_of"}
-{"type":"relation","from":"SaaS Factory Model","to":"Security Engine","relationType":"composed_of"}
-{"type":"relation","from":"SaaS Factory Model","relationType":"composed_of","to":"Optimization Engine"}
-{"type":"relation","from":"Statistical Analysis Engine","relationType":"uses","to":"External Script Runner"}
-{"type":"relation","relationType":"uses","from":"Data Ingestion Engine","to":"API Client Builder"}
-{"type":"relation","from":"SaaS Factory Model","relationType":"composed_of","to":"External Script Runner"}
-{"type":"relation","to":"API Client Builder","relationType":"composed_of","from":"SaaS Factory Model"}
 {"type":"relation","to":"Pundit","from":"Business Intelligence SaaS","relationType":"uses"}
 {"type":"relation","to":"Apartment","relationType":"uses","from":"Business Intelligence SaaS"}
 {"type":"relation","relationType":"uses","from":"Business Intelligence SaaS","to":"Good Job"}
@@ -214,24 +195,6 @@
 {"type":"relation","relationType":"uses","to":"Noticed","from":"Marketing Analytics SaaS"}
 {"type":"relation","to":"Ahoy","relationType":"uses","from":"Marketing Analytics SaaS"}
 {"type":"relation","relationType":"uses","to":"Draper","from":"Marketing Analytics SaaS"}
-{"type":"relation","to":"ETL","relationType":"uses","from":"Data Ingestion Engine"}
-{"type":"relation","relationType":"uses","from":"Statistical Analysis Engine","to":"Sidekiq"}
-{"type":"relation","from":"Statistical Analysis Engine","to":"Kredis","relationType":"uses"}
-{"type":"relation","from":"Statistical Analysis Engine","relationType":"uses","to":"Dry-rb"}
-{"type":"relation","from":"Visualization Engine","to":"Chartkick","relationType":"uses"}
-{"type":"relation","from":"Visualization Engine","relationType":"uses","to":"Groupdate"}
-{"type":"relation","relationType":"uses","from":"Visualization Engine","to":"Kaminari"}
-{"type":"relation","relationType":"uses","to":"Ransack","from":"Visualization Engine"}
-{"type":"relation","to":"Draper","relationType":"uses","from":"Visualization Engine"}
-{"type":"relation","from":"Alerting Engine","relationType":"uses","to":"Sidekiq"}
-{"type":"relation","relationType":"uses","to":"Noticed","from":"Alerting Engine"}
-{"type":"relation","to":"Devise","relationType":"uses","from":"Security Engine"}
-{"type":"relation","from":"Security Engine","to":"Pundit","relationType":"uses"}
-{"type":"relation","to":"Sidekiq","from":"Optimization Engine","relationType":"uses"}
-{"type":"relation","relationType":"uses","to":"Kredis","from":"Optimization Engine"}
-{"type":"relation","relationType":"uses","to":"Dry-rb","from":"Optimization Engine"}
-{"type":"relation","to":"External Script Runner","relationType":"uses","from":"Optimization Engine"}
-{"type":"relation","relationType":"uses","from":"API Client Builder","to":"Faraday"}
 {"type":"relation","relationType":"documented_by","to":"Development Roadmap","from":"Business Intelligence SaaS"}
 {"type":"relation","to":"Data Model","relationType":"documented_by","from":"Business Intelligence SaaS"}
 {"type":"relation","relationType":"documented_by","to":"User Flows","from":"Business Intelligence SaaS"}
@@ -241,7 +204,6 @@
 {"type":"relation","relationType":"uses","to":"RSpec Mocks","from":"Testing Strategy"}
 {"type":"relation","from":"Testing Strategy","relationType":"uses","to":"Webmock"}
 {"type":"relation","from":"Testing Strategy","relationType":"uses","to":"VCR"}
-{"type":"relation","from":"Security Engine","to":"Rolify","relationType":"uses"}
 {"type":"relation","from":"Business Intelligence SaaS","relationType":"uses","to":"Searchkick"}
 {"type":"relation","relationType":"uses","from":"Marketing Analytics SaaS","to":"Searchkick"}
 {"type":"relation","relationType":"uses","to":"Sentry","from":"Business Intelligence SaaS"}
@@ -265,22 +227,56 @@
 {"type":"relation","from":"Deployment Strategy","to":"AWS Lambda","relationType":"uses"}
 {"type":"relation","from":"Deployment Strategy","to":"Testing Strategy","relationType":"integrates_with"}
 {"type":"relation","from":"Deployment Strategy","to":"Sentry","relationType":"integrates_with"}
-{"type":"relation","to":"API Gateway Engine","from":"SaaS Factory Model","relationType":"composed_of"}
-{"type":"relation","from":"SaaS Factory Model","to":"MCP Gateway Engine","relationType":"composed_of"}
-{"type":"relation","relationType":"requires","from":"Business Intelligence SaaS","to":"API Gateway Engine"}
-{"type":"relation","relationType":"requires","from":"Business Intelligence SaaS","to":"MCP Gateway Engine"}
-{"type":"relation","relationType":"requires","from":"Marketing Analytics SaaS","to":"API Gateway Engine"}
-{"type":"relation","relationType":"requires","from":"Marketing Analytics SaaS","to":"MCP Gateway Engine"}
-{"type":"relation","from":"API Gateway Engine","to":"Security Engine","relationType":"uses"}
-{"type":"relation","relationType":"uses","to":"Faraday","from":"API Gateway Engine"}
-{"type":"relation","relationType":"uses","from":"MCP Gateway Engine","to":"Data Ingestion Engine"}
-{"type":"relation","from":"MCP Gateway Engine","to":"Statistical Analysis Engine","relationType":"uses"}
-{"type":"relation","to":"Faraday","from":"MCP Gateway Engine","relationType":"uses"}
-{"type":"relation","relationType":"uses","to":"Grape","from":"API Gateway Engine"}
-{"type":"relation","to":"Rack-Attack","relationType":"uses","from":"API Gateway Engine"}
-{"type":"relation","from":"API Gateway Engine","relationType":"uses","to":"Doorkeeper"}
-{"type":"relation","relationType":"uses","to":"ruby_llm-mcp","from":"MCP Gateway Engine"}
-{"type":"relation","relationType":"uses","from":"MCP Gateway Engine","to":"ruby_llm-schema"}
-{"type":"relation","relationType":"uses","from":"MCP Gateway Engine","to":"RubyLLM"}
-{"type":"relation","relationType":"uses","to":"RubyLLM-MCP","from":"MCP Gateway Engine"}
-{"type":"relation","from":"MCP Gateway Engine","to":"RubyLLM-Schema","relationType":"uses"}
+{"type":"relation","relationType":"requires","to":"Conduit","from":"Business Intelligence SaaS"}
+{"type":"relation","relationType":"requires","from":"Business Intelligence SaaS","to":"Quant"}
+{"type":"relation","relationType":"requires","to":"Canvas","from":"Business Intelligence SaaS"}
+{"type":"relation","from":"Business Intelligence SaaS","to":"Sentinel","relationType":"requires"}
+{"type":"relation","relationType":"requires","from":"Business Intelligence SaaS","to":"Aegis"}
+{"type":"relation","relationType":"requires","to":"Optimus","from":"Business Intelligence SaaS"}
+{"type":"relation","relationType":"requires","to":"Nexus","from":"Business Intelligence SaaS"}
+{"type":"relation","relationType":"requires","from":"Business Intelligence SaaS","to":"Synapse"}
+{"type":"relation","to":"Conduit","relationType":"requires","from":"Marketing Analytics SaaS"}
+{"type":"relation","relationType":"requires","from":"Marketing Analytics SaaS","to":"Quant"}
+{"type":"relation","from":"Marketing Analytics SaaS","to":"Canvas","relationType":"requires"}
+{"type":"relation","relationType":"requires","to":"Nexus","from":"Marketing Analytics SaaS"}
+{"type":"relation","from":"Marketing Analytics SaaS","to":"Synapse","relationType":"requires"}
+{"type":"relation","relationType":"composed_of","to":"Conduit","from":"SaaS Factory Model"}
+{"type":"relation","from":"SaaS Factory Model","to":"Quant","relationType":"composed_of"}
+{"type":"relation","relationType":"composed_of","from":"SaaS Factory Model","to":"Canvas"}
+{"type":"relation","from":"SaaS Factory Model","relationType":"composed_of","to":"Sentinel"}
+{"type":"relation","from":"SaaS Factory Model","relationType":"composed_of","to":"Aegis"}
+{"type":"relation","relationType":"composed_of","from":"SaaS Factory Model","to":"Optimus"}
+{"type":"relation","to":"Nexus","relationType":"composed_of","from":"SaaS Factory Model"}
+{"type":"relation","to":"Synapse","from":"SaaS Factory Model","relationType":"composed_of"}
+{"type":"relation","from":"Quant","relationType":"uses","to":"Executor"}
+{"type":"relation","relationType":"uses","to":"Connector","from":"Conduit"}
+{"type":"relation","to":"ETL","from":"Conduit","relationType":"uses"}
+{"type":"relation","to":"Sidekiq","relationType":"uses","from":"Quant"}
+{"type":"relation","from":"Quant","relationType":"uses","to":"Kredis"}
+{"type":"relation","relationType":"uses","to":"Dry-rb","from":"Quant"}
+{"type":"relation","to":"Chartkick","relationType":"uses","from":"Canvas"}
+{"type":"relation","to":"Groupdate","relationType":"uses","from":"Canvas"}
+{"type":"relation","to":"Kaminari","from":"Canvas","relationType":"uses"}
+{"type":"relation","from":"Canvas","to":"Ransack","relationType":"uses"}
+{"type":"relation","relationType":"uses","to":"Draper","from":"Canvas"}
+{"type":"relation","to":"Sidekiq","relationType":"uses","from":"Sentinel"}
+{"type":"relation","to":"Noticed","relationType":"uses","from":"Sentinel"}
+{"type":"relation","relationType":"uses","from":"Aegis","to":"Devise"}
+{"type":"relation","relationType":"uses","to":"Pundit","from":"Aegis"}
+{"type":"relation","relationType":"uses","to":"Rolify","from":"Aegis"}
+{"type":"relation","from":"Optimus","to":"Sidekiq","relationType":"uses"}
+{"type":"relation","to":"Kredis","relationType":"uses","from":"Optimus"}
+{"type":"relation","relationType":"uses","from":"Optimus","to":"Dry-rb"}
+{"type":"relation","from":"Optimus","to":"Executor","relationType":"uses"}
+{"type":"relation","from":"Nexus","to":"Aegis","relationType":"uses"}
+{"type":"relation","to":"Faraday","relationType":"uses","from":"Nexus"}
+{"type":"relation","relationType":"uses","from":"Nexus","to":"Grape"}
+{"type":"relation","to":"Rack-Attack","relationType":"uses","from":"Nexus"}
+{"type":"relation","from":"Nexus","relationType":"uses","to":"Doorkeeper"}
+{"type":"relation","from":"Synapse","relationType":"uses","to":"Conduit"}
+{"type":"relation","relationType":"uses","to":"Quant","from":"Synapse"}
+{"type":"relation","to":"Faraday","relationType":"uses","from":"Synapse"}
+{"type":"relation","relationType":"uses","to":"RubyLLM","from":"Synapse"}
+{"type":"relation","to":"RubyLLM-MCP","from":"Synapse","relationType":"uses"}
+{"type":"relation","from":"Synapse","to":"RubyLLM-Schema","relationType":"uses"}
+{"type":"relation","relationType":"uses","from":"Connector","to":"Faraday"}

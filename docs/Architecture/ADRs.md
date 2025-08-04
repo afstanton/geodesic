@@ -23,8 +23,8 @@
 ## ADR 003: Data Ingestion Engine Leveraging ETL Gem
 
 - **Status**: Accepted
-- **Context**: The [[Data Ingestion Engine]] is a new, high-level component responsible for managing the entire data ingestion process. The existing [[ETL]] gem provides a low-level framework for ETL processes.
-- **Decision**: The [[Data Ingestion Engine]] will leverage the [[ETL]] gem as an internal dependency for its core processing logic.
+- **Context**: The [[Conduit]] is a new, high-level component responsible for managing the entire data ingestion process. The existing [[ETL]] gem provides a low-level framework for ETL processes.
+- **Decision**: The [[Conduit]] will leverage the [[ETL]] gem as an internal dependency for its core processing logic.
 - **Consequences**:
     - **Pros**: Promotes code reuse and leverages an existing, battle-tested gem for the fundamental ETL operations. Reduces the development effort for the Data Ingestion Engine.
     - **Cons**: Introduces a dependency on the ETL gem, requiring familiarity with its API and conventions.

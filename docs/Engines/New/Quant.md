@@ -18,5 +18,5 @@
 
 - **Models**: `StatisticalModel`, `AnalysisWorkflow`, `ModelResult`.
 - **Services**: Service objects to encapsulate complex statistical calculations.
-- **Integration**: A well-defined interface for communicating with external R/Python processes, likely using the [[External Script Runner]] gem.
+- **Integration**: A well-defined interface for communicating with external R/Python processes, likely using the [[Executor]] gem.
 - **Dependencies**: [[Scenic]] for creating database views to feed the models, [[Sidekiq]] for running complex calculations in the background, [[Kredis]] for caching results, and [[Dry-rb]] for robust business logic.

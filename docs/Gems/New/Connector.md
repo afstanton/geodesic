@@ -2,7 +2,7 @@
 
 **Purpose**: To provide a standardized, repeatable pattern for building robust clients for third-party REST APIs.
 
-**Related To**: [[Data Ingestion Engine]]
+**Related To**: [[Conduit]]
 
 ## Core Features
 

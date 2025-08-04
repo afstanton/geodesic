@@ -4,14 +4,14 @@ This directory contains documentation for new, custom Rails engines to be built 
 
 ## Core Application Engines
 
-- **[[Data Ingestion Engine]]**: Manages ETL processes, data source connections, and data mapping.
-- **[[Statistical Analysis Engine]]**: Provides advanced statistical modeling and analytical capabilities.
-- **[[Visualization Engine]]**: Powers interactive dashboards and complex data visualizations.
-- **[[Alerting Engine]]**: Handles anomaly detection and user notification logic.
-- **[[Security Engine]]**: Manages application-level security, roles, and permissions.
-- **[[Optimization Engine]]**: Provides operations research and mathematical optimization capabilities.
+- **[[Conduit]]**: Manages ETL processes, data source connections, and data mapping.
+- **[[Quant]]**: Provides advanced statistical modeling and analytical capabilities.
+- **[[Canvas]]**: Powers interactive dashboards and complex data visualizations.
+- **[[Sentinel]]**: Handles anomaly detection and user notification logic.
+- **[[Aegis]]**: Manages application-level security, roles, and permissions.
+- **[[Optimus]]**: Provides operations research and mathematical optimization capabilities.
 
 ## Gateway Engines
 
-- **[[API Gateway Engine]]**: Provides a standardized way to expose application functionality via APIs for third-party developers.
-- **[[MCP Gateway Engine]]**: Offers a unified interface for integrating with various Machine Learning/AI Platform services.
+- **[[Nexus]]**: Provides a standardized way to expose application functionality via APIs for third-party developers.
+- **[[Synapse]]**: Offers a unified interface for integrating with various Machine Learning/AI Platform services.
