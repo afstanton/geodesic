@@ -280,3 +280,5 @@
 {"type":"relation","to":"RubyLLM-MCP","from":"Synapse","relationType":"uses"}
 {"type":"relation","from":"Synapse","to":"RubyLLM-Schema","relationType":"uses"}
 {"type":"relation","relationType":"uses","from":"Connector","to":"Faraday"}
+{"type":"relation","to":"Pay","from":"Business Intelligence SaaS","relationType":"uses"}
+{"type":"relation","relationType":"uses","to":"Stripe","from":"Pay"}

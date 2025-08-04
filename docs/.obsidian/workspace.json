@@ -11,10 +11,14 @@
             "id": "78248e4c726cbee8",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/Development Roadmap.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Development Roadmap"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Analysis/Development Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Development Roadmap"
             }
           },
           {
@@ -108,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Analysis/Development Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Development Roadmap"
             }
           },
           {
@@ -136,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Analysis/Development Roadmap.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Development Roadmap"
             }
           }
         ]
@@ -163,6 +170,9 @@
   },
   "active": "78248e4c726cbee8",
   "lastOpenFiles": [
+    "Gems/Existing/Chartkick.md",
+    "Analysis/Development Roadmap.md",
+    "Analysis/Project Inventory.md",
     "Gems/Existing/RubyLLM-MCP.md",
     "Gems/Existing/RubyLLM-Schema.md",
     "Gems/Existing/RubyLLM.md",
@@ -186,9 +196,6 @@
     "Development/Testing Strategy.md",
     "Gems/Existing/VCR.md",
     "Gems/Existing/Webmock.md",
-    "Gems/Existing/RSpec Mocks.md",
-    "Gems/Existing/FactoryBot.md",
-    "Gems/Existing/RSpec.md",
     "Development",
     "UX",
     "Architecture",
