@@ -135,7 +135,7 @@ See [[Enterprise Security Strategy]] for complete details.
 ## Customer Acquisition Strategy
 
 ### Target Customer Profile
-**Primary Persona:** Operations Director/VP at mid-market companies
+**Primary Persona:** [[Victor, the Vantage User (Operations VP)]]
 - **Company Size:** $10M-100M annual revenue
 - **Current Tools:** Spreadsheets, basic BI tools (Power BI/Tableau)
 - **Pain Points:** Complex analysis requires technical expertise, slow insights

@@ -16,6 +16,7 @@
 ## 2. Wendy, the White-Label Customer (SaaS CTO)
 
 - **Role:** CTO at a vertical SaaS company for the logistics industry ($15M ARR).
+- **Associated Platform:** [[Apex Analytics Platform]]
 - **Background:** Experienced software engineer, manages a team of 20 developers.
 - **Goals:**
     - Provide a powerful analytics dashboard to her customers directly within their product.

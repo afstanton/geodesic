@@ -152,7 +152,7 @@ Rather than building Vantage and then retrofitting it for white-label use, Apex 
 ## Customer Acquisition Strategy
 
 ### Target Customer Profile
-**Primary Persona:** CTO/VP Engineering at SaaS companies
+**Primary Persona:** [[Wendy, the White-Label Customer (SaaS CTO)]]
 - **Company Size:** 10-1000 employees, $1M-100M ARR
 - **Current State:** Building analytics in-house or using basic embedded BI
 - **Pain Points:** Lack statistical expertise, need customer-facing analytics
@@ -487,7 +487,7 @@ Public pricing calculator allowing prospects to:
 ## Customer Acquisition Strategy
 
 ### Target Customer Profile
-**Primary Persona:** CTO/VP Engineering at SaaS companies
+**Primary Persona:** [[Wendy, the White-Label Customer (SaaS CTO)]]
 - **Company Size:** 10-1000 employees, $1M-100M ARR
 - **Current State:** Building analytics in-house or using basic embedded BI
 - **Pain Points:** Lack statistical expertise, need customer-facing analytics

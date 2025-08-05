@@ -1,6 +1,6 @@
 # User Flows
 
-**Purpose**: To outline the core user experiences and interaction flows for the Business Intelligence SaaS.
+**Purpose**: To outline the core user experiences and interaction flows for the [[Personas]] defined for the Business Intelligence SaaS.
 
 ## 1. Onboarding Flow
 

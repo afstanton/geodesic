@@ -16,7 +16,7 @@ Build the **Apex Analytics Platform**, a multi-tenant, engine-based platform tha
 **Phase 1: In Progress** - Building the [[Vantage]] MVP on the foundational [[Apex Analytics Platform]].
 
 ## Key Links
-- [[README]]
-- [[docs/Analysis/Development Roadmap]]
-- [[docs/Analysis/Interim Goals]]
-- [[docs/Development/Current Focus]]
+- [[Home]]
+- [[Development Roadmap]]
+- [[Interim Goals]]
+- [[Current Focus]]

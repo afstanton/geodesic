@@ -16,13 +16,13 @@ Transform from unemployed and financially constrained to entrepreneurial indepen
 
 ## Current Status
 
-**Point A (Current State):** *See [[docs/Analysis/Baseline]]*
+**Point A (Current State):** *See [[Baseline]]*
 - 56 years old, chemistry PhD (Purdue, 1999) + 20+ years Rails experience
 - No current income, negative net worth
 - $3k/month current bills + need $6-7k/month for independent living
 - **Target: $10k gross monthly revenue by end of 2025**
 
-**Point B (Ultimate Goals):** *See [[docs/Analysis/Long Term Vision]]*
+**Point B (Ultimate Goals):** *See [[Long Term Vision]]*
 - $1+ billion net worth
 - Global location independence (multiple estates)
 - Molecular nanotechnology research funding
@@ -30,7 +30,7 @@ Transform from unemployed and financially constrained to entrepreneurial indepen
 
 ## Strategic Approach
 
-### The Platform-First SaaS Factory Model *See [[docs/Analysis/SaaS Factory Strategy]]*
+### The Platform-First SaaS Factory Model *See [[SaaS Factory Strategy]]*
 Instead of building individual applications from scratch, I'm developing **Apex Analytics Platform** - a foundational multi-tenant platform that powers both my own applications and white-label implementations for other SaaS companies. This approach enables:
 
 - **Revenue multiplication** - Same platform serves multiple customer bases
@@ -39,10 +39,10 @@ Instead of building individual applications from scratch, I'm developing **Apex 
 - **Technical arbitrage** leveraging PhD-level statistical skills at platform scale
 - **Platform economics** with network effects and ecosystem growth
 
-### Technical Arbitrage Focus *See [[docs/Analysis/Asymmetric SaaS Opportunities for Advanced Analytics + Rails]]*
+### Technical Arbitrage Focus *See [[Asymmetric SaaS Opportunities for Advanced Analytics + Rails]]*
 My unique combination of chemistry PhD (global optimization thesis) + 20 years Rails experience creates opportunities where advanced mathematical/statistical skills command premium pricing but remain scarce among typical developers.
 
-**White-label market validation** *([[docs/Analysis/White Label Market Analysis & Strategic Assessment]])* reveals:
+**White-label market validation** *([[White Label Market Analysis & Strategic Assessment]])* reveals:
 - Current platforms offer only "basic trendlines, aggregates, and filtering"
 - **Zero competitors provide PhD-level statistical capabilities**
 - 75% of prospects abandon evaluations due to pricing complexity
@@ -110,18 +110,18 @@ geodesic/
 ## Key Documentation
 
 ### Strategic Analysis
-- **[[docs/Analysis/Baseline]]** - Current state assessment and challenges
-- **[[docs/Analysis/Interim Goals]]** - Enhanced with dual-track platform strategy
-- **[[docs/Analysis/Long Term Vision]]** - Platform economics enabling wealth acceleration
-- **[[docs/Analysis/SaaS Factory Strategy]]** - Multi-tenant modular platform approach
-- **[[docs/Analysis/Development Roadmap]]** - Platform-first development phases
-- **[[docs/Analysis/Enterprise Security Strategy]]** - Bank-grade security as competitive advantage
-- **[[docs/Analysis/White Label Market Analysis & Strategic Assessment]]** - Comprehensive market opportunity analysis
+- **[[Baseline]]** - Current state assessment and challenges
+- **[[Interim Goals]]** - Enhanced with dual-track platform strategy
+- **[[Long Term Vision]]** - Platform economics enabling wealth acceleration
+- **[[SaaS Factory Strategy]]** - Multi-tenant modular platform approach
+- **[[Development Roadmap]]** - Platform-first development phases
+- **[[Enterprise Security Strategy]]** - Bank-grade security as competitive advantage
+- **[[White Label Market Analysis & Strategic Assessment]]** - Comprehensive market opportunity analysis
 
 ### Platform & Applications
 - **[[docs/Apps/Apex]]** - Multi-tenant analytics platform with transparent pricing
 - **[[docs/Apps/Vantage]]** - Flagship BI implementation serving as platform validation
-- **[[docs/Apps/Catalyst]]** - Alternative implementation option
+- **[Catalyst](./docs/Apps/Catalyst.md)** - Alternative implementation option
 
 ### Technical Components
 **Platform Engines:**
@@ -129,7 +129,7 @@ geodesic/
 - **[[docs/Engines/New/Canvas]]** - Embeddable visualization components
 - **[[docs/Engines/New/Conduit]]** - Secure multi-tenant data processing
 - **[[docs/Engines/New/Aegis]]** - Enterprise security and customer isolation
-- **[[docs/Engines/New/Nexus]]** - API gateway enabling white-label embedding
+- **[Nexus](./docs/Engines/New/Nexus.md)** - API gateway enabling white-label embedding
 
 ## Current Focus
 
