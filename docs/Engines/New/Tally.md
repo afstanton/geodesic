@@ -1,6 +1,6 @@
 # Tally Engine
 
-**Purpose:** To provide a reusable, robust, and extensible engine for metering and calculating usage-based billing for any application in the [[SaaS Factory Model]].
+**Purpose:** To provide a reusable, robust, and extensible engine for metering and calculating usage-based billing for any application in the [[SaaS Factory Strategy]].
 
 **Related To:** [[Apex Analytics Platform]], [[Nexus]], [[Conduit]], [[Pay]]
 
@@ -8,7 +8,7 @@
 
 ## Strategic Importance
 
-The Tally engine abstracts the complex logic of usage-based billing into a standalone component. This prevents application-specific implementations and ensures that sophisticated metering and pricing models can be easily reused across multiple products. It is the practical implementation of the **[[Transparent Pricing Model]]** advantage.
+The Tally engine abstracts the complex logic of usage-based billing into a standalone component. This prevents application-specific implementations and ensures that sophisticated metering and pricing models can be easily reused across multiple products. It is the practical implementation of the **Transparent Pricing Model** advantage.
 
 ## Core Features & Responsibilities
 

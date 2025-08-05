@@ -37,4 +37,4 @@
 ## Future Enhancements
 
 - **Containerization**: Migrate to Docker and Kubernetes (EKS) for improved portability, scalability, and resource utilization.
-- **Serverless Functions**: Explore [[AWS Lambda]] for specific, event-driven tasks to optimize costs and operational overhead.
+- **Serverless Functions**: Explore **AWS Lambda** for specific, event-driven tasks to optimize costs and operational overhead.
