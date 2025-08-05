@@ -11,10 +11,14 @@
             "id": "78248e4c726cbee8",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Analysis/White Label Market Analysis & Strategic Assessment.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "White Label Market Analysis & Strategic Assessment"
             }
           }
         ]
@@ -163,6 +167,14 @@
   },
   "active": "78248e4c726cbee8",
   "lastOpenFiles": [
+    "Apps/Apex.md",
+    "Analysis/White Label/White Label Data Processing Platform Market Analysis.md",
+    "Analysis/White Label/White Label Analysis.md",
+    "Analysis/White Label Market Analysis & Strategic Assessment.md",
+    "Analysis/White Label",
+    "Analysis/White Label/White Label Analysys.md",
+    "Analysis/White Label/compass_artifact_wf-582e7d7a-5a68-4537-8ac4-631112a1eb00_text_markdown.md",
+    "Analysis/Enterprise Security Strategy.md",
     "Analysis/Development Roadmap.md",
     "Gems/Existing/Chartkick.md",
     "Analysis/Project Inventory.md",
@@ -182,13 +194,6 @@
     "Analysis/Glossary.md",
     "Gems/Existing/Capybara.md",
     "Gems/Existing/Sentry.md",
-    "Gems/Existing/Searchkick.md",
-    "Gems/Existing/Rolify.md",
-    "Gems/Existing/Apartment.md",
-    "Gems/Existing.md",
-    "Development/Testing Strategy.md",
-    "Gems/Existing/VCR.md",
-    "Gems/Existing/Webmock.md",
     "Development",
     "UX",
     "Architecture",
@@ -197,7 +202,6 @@
     "Gems/Existing",
     "Gems/New",
     "Gems",
-    "Engines",
-    "Apps"
+    "Engines"
   ]
 }

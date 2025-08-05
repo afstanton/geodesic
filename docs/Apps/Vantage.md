@@ -1,15 +1,20 @@
 # Business Intelligence SaaS
 
 **Project Codename:** Insight Engine  
+**Platform Foundation:** Built on [[Apex Analytics Platform]]  
 **Target Market:** Mid-market companies ($10M-100M revenue) needing advanced analytics  
 **Revenue Target:** $1,000-3,000/month per customer  
-**Development Timeline:** 3-5 months MVP, 6-12 months full advanced analytics
+**Development Timeline:** 3-5 months MVP (leveraging [[Apex Analytics Platform]] foundation)
 
-**Project Context:** [[SaaS Factory Strategy]] | Alternative: [[Catalyst]] | Analysis: [[SaaS Market Analysis: Marketing Analytics vs Business Intelligence]]
+**Project Context:** [[SaaS Factory Strategy]] | Platform: [[Apex Analytics Platform]] | Alternative: [[Catalyst]] | Analysis: [[SaaS Market Analysis: Marketing Analytics vs Business Intelligence]]
 
 ## Strategic Overview
 
-A mid-market Business Intelligence platform that differentiates through advanced statistical analysis capabilities rather than just data visualization. This approach leverages Aaron's analytical background to create sophisticated insights that typical BI tools cannot provide, targeting the gap between basic dashboards and expensive enterprise analytics.
+Vantage is the **flagship implementation** of the [[Apex Analytics Platform]] - a mid-market Business Intelligence application that serves as both a revenue-generating product and proof-of-concept for the underlying platform's capabilities. This dual purpose creates powerful strategic advantages:
+
+**As a Standalone Product**: Vantage differentiates through advanced statistical analysis capabilities rather than just data visualization, targeting the gap between basic dashboards and expensive enterprise analytics.
+
+**As Platform Validation**: Vantage success demonstrates the [[Apex Analytics Platform]]'s capabilities to potential white-label customers, creating the ultimate social proof: *"This platform is so powerful, we built our own $15k+ MRR BI business on it."*
 
 ### Technical Arbitrage Opportunity
 

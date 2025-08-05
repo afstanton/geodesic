@@ -1,46 +1,117 @@
-# Development Roadmap
+# Development Roadmap**Purpose**: To outline the phased development plan for building a multi-tenant analytics platform supporting both direct SaaS sales and white-label implementations. This roadmap provides a critical path to achieving the project's [[Interim Goals]] through the [[Dual Track Strategy]].
 
-**Purpose**: To outline the phased development plan for the Business Intelligence SaaS, from initial foundation to MVP and beyond. This roadmap provides a critical path to achieving the project's [[Interim Goals]].
+**Strategic Context**: Based on [[White Label Market Analysis & Strategic Assessment]], the platform will be architected for white-label capabilities from day one while launching direct sales through [[Vantage]].
 
-## Phase 0: Foundation (Months 1-2)
+## Phase 0: Multi-Tenant Foundation (Months 1-3)
 
-**Goal**: To establish the core application shell and the absolute minimum set of components for a developer to begin working on features. This phase focuses on setting up the foundational architecture and essential services.
+**Goal**: Establish core platform architecture supporting both direct customers and future white-label implementations. Architecture decisions made here determine white-label viability.
 
--   **Application Shell**: Create a new Rails application that will serve as the host for all engines. This includes basic configuration, database setup (PostgreSQL), and integration with [[Sidekiq]] for background jobs.
--   **Engine Skeletons**: Generate the skeletons for all new engines ([[Conduit]], [[Quant]], [[Canvas]], [[Sentinel]], [[Aegis]], [[Optimus]], [[Nexus]], [[Synapse]]) to establish their directory structure and basic dependencies. This ensures a modular foundation from the start.
--   **[[Aegis]] (v0.1 - Core Authentication)**: Implement basic user authentication (sign-up, login/logout) using [[Devise]]. Focus on secure user management. No complex roles or permissions yet, just user identity.
--   **[[Conduit]] (v0.1 - Basic Data Source)**: Implement the ability to connect to a single, simple data source (e.g., a PostgreSQL database or a CSV file upload). Initial focus is on data ingestion logic using [[ETL]] gem. No UI for credentials yet; they can be stored in environment variables for development.
--   **Core UI**: A very basic, unstyled UI to allow navigation between the different engine frontends. This will be a simple Rails application layout with placeholders for engine-specific views.
--   **Payment Setup**: Integrate the [[Pay]] engine with [[Stripe]] for subscription management and payment processing. This is critical for enabling revenue generation from day one.
--   **Monitoring Setup**: Integrate [[Sentry]] for error tracking and basic performance monitoring from day one.
+### Core Platform Infrastructure
+-   **Multi-Tenant Application Shell**: Create Rails application with [[Apartment]] gem for customer data isolation. Each customer gets separate database schema from day one.
+-   **White-Label Architecture Foundation**: Design database models and API structure to support customer branding, custom domains, and embedded components.
+-   **Engine Skeletons**: Generate skeletons for all engines ([[Conduit]], [[Quant]], [[Canvas]], [[Sentinel]], [[Aegis]], [[Optimus]], [[Nexus]], [[Synapse]]) with multi-tenant considerations.
 
-## Phase 1: MVP Core (Months 2-4)
+### Security & Isolation ([[Aegis]] v0.1)
+-   **Multi-Tenant Authentication**: Implement customer-isolated authentication using [[Devise]] with tenant-specific user management.
+-   **Customer Data Isolation**: Each customer's data completely separated with unique encryption keys.
+-   **Basic API Authentication**: Foundation for future white-label API access.
 
-**Goal**: To build the minimum set of features required to provide immediate value to the first paying customer. This phase focuses on core BI functionality.
+### Data Processing ([[Conduit]] v0.1)
+-   **Tenant-Aware Data Ingestion**: Data sources scoped to specific customers with isolated processing.
+-   **Customer-Specific Credentials**: Secure credential storage per tenant using customer-specific encryption.
+-   **Multi-Tenant ETL Pipeline**: Foundation for processing customer data in isolation.
 
--   **[[Canvas]] (v0.5 - Basic Dashboard)**: Implement a basic interactive dashboard with the ability to display a single type of chart (e.g., line chart) using data from [[Conduit]]. Leverage [[Chartkick]] for quick visualization. Focus on a clean, intuitive display.
--   **[[Quant]] (v0.5 - Core Statistical Analysis)**: Implement one or two core statistical analyses (e.g., simple linear regression, basic time series forecasting) that can be applied to data ingested via [[Conduit]] and visualized in [[Canvas]]. Utilize [[Executor]] for R/Python integration if needed for these specific models.
--   **[[Conduit]] (v0.5 - UI & Scheduling)**: Add a user interface for managing data source credentials (securely, perhaps using Rails encrypted credentials) and scheduling recurring data ingestion jobs. This makes the data pipeline self-service.
--   **[[Aegis]] (v0.5 - Basic RBAC)**: Implement basic role-based access control (e.g., 'admin' vs. 'viewer' roles) using [[Pundit]] and [[Rolify]]. This allows for differentiated access to dashboards and data.
--   **Data Model Refinement**: Continuously refine the core data models within [[Conduit]], [[Quant]], and [[Canvas]] to support the MVP features.
--   **Testing**: Implement comprehensive [[Testing Strategy#Unit Tests]] and [[Testing Strategy#Integration Tests]] for all new features, leveraging [[RSpec]], [[FactoryBot]], [[Webmock]], and [[VCR]].
+### Platform Services
+-   **Multi-Tenant Billing** ([[Pay]]): Customer-specific subscription management with [[Stripe]].
+-   **Tenant-Scoped Monitoring**: [[Sentry]] integration with customer-specific error tracking.
+-   **API Gateway Foundation** ([[Nexus]] v0.1): Basic API structure for future embedding capabilities.
 
-## Phase 2: Post-MVP Enhancement (Months 5-6)
+## Phase 1: Direct SaaS MVP + White-Label Preparation (Months 3-6)
 
-**Goal**: To add features that will increase the value of the product, improve user experience, and attract a wider range of customers.
+**Goal**: Launch [[Vantage]] direct sales while building white-label technical foundation. Prove product-market fit with direct customers while preparing platform capabilities.
 
--   **[[Sentinel]] (v1.0 - Functional Alerting)**: Implement a functional alerting system that allows users to define rules based on data thresholds or anomalies detected by [[Quant]], and send notifications via email using [[Noticed]].
--   **[[Optimus]] (v1.0 - Initial Optimization)**: Implement one or two core optimization algorithms (e.g., simple resource allocation, basic supply chain optimization) that showcase the product's unique capabilities, leveraging [[Executor]] for external solvers.
--   **[[Canvas]] (v1.0 - Advanced Visualizations)**: Add more chart types, interactive features (drill-downs, filters), and customization options to the dashboards. Explore using [[Draper]] for presentation logic and [[Searchkick]] for data exploration within dashboards.
--   **[[Conduit]] (v1.0 - Expanded Data Sources)**: Add support for more diverse data sources (e.g., Salesforce, Google Analytics, custom APIs) using the [[Connector]] gem.
--   **Performance Optimization**: Utilize [[PgHero]] for database monitoring and [[Kredis]] for caching frequently accessed data or analytical results to improve application responsiveness.
+### Direct Customer Features
+-   **[[Canvas]] (v0.5 - Multi-Tenant Dashboards)**: Customer-isolated dashboards with basic charts using [[Chartkick]]. Foundation for white-label UI components.
+-   **[[Quant]] (v0.5 - Statistical Analysis Engine)**: Core statistical capabilities (regression, forecasting) that differentiate from basic BI tools. **Key white-label differentiator**.
+-   **[[Conduit]] (v0.5 - Self-Service Data Pipeline)**: UI for customer data source management with tenant isolation.
+-   **[[Aegis]] (v0.5 - Customer RBAC)**: Role-based access within customer tenants.
 
-## Phase 3: Advanced Capabilities (Months 7-9+)
+### White-Label Technical Preparation
+-   **Component API Design**: Design APIs for future SDK generation and embedding.
+-   **Customer Branding Framework**: Database models for custom logos, colors, domains.
+-   **Multi-Tenant Testing**: Comprehensive testing strategy for customer isolation.
+-   **Developer Documentation Foundation**: Begin API documentation for future white-label customers.
 
-**Goal**: To expand the platform into a more comprehensive data and AI solution, enabling platform growth and deeper integrations.
+### Revenue Generation
+-   **Direct Sales Launch**: Target 3-5 [[Vantage]] customers at $1,000-3,000/month.
+-   **Customer Success Process**: Onboarding and support processes for direct customers.
+-   **Market Validation**: Validate statistical differentiation and pricing model.
 
--   **[[Nexus]] (v1.0 - API Gateway)**: Develop the API Gateway to expose core BI functionalities via a secure, versioned API. Implement rate limiting with [[Rack-Attack]] and OAuth2 authentication with [[Doorkeeper]]. This opens the platform for third-party integrations.
--   **[[Synapse]] (v1.0 - MCP Gateway)**: Implement the MCP Gateway to integrate with external Machine Learning/AI platforms. Focus on enabling natural language queries or advanced predictive models by leveraging [[RubyLLM]], [[RubyLLM-MCP]], and [[RubyLLM-Schema]]. This will allow the BI tool to offer AI-driven insights.
--   **Vertical Specialization**: Begin building industry-specific features within existing engines, informed by market research, to target specific verticals (e.g., healthcare, financial services).
--   **Scalability & Reliability**: Continuously refine deployment strategies, monitoring, and infrastructure to support a growing user base and data volume. This includes leveraging more advanced AWS services like ECS/EKS as needed.
+## Phase 2: White-Label Platform Launch (Months 6-9)
+
+**Goal**: Launch white-label capabilities while scaling direct sales. Transform from single SaaS to multi-tenant platform.
+
+### White-Label Core Features
+-   **[[Nexus]] (v1.0 - Full API Gateway)**: Complete API for white-label integration with [[Doorkeeper]] authentication and [[Rack-Attack]] rate limiting.
+-   **SDK Generation**: JavaScript/React SDK for native embedding of analytics components.
+-   **Customer Branding System**: Full white-label customization including custom domains, CSS, and component styling.
+-   **Developer Portal**: Self-service onboarding, documentation, and testing environment for white-label customers.
+
+### Advanced Analytics Capabilities
+-   **[[Quant]] (v1.0 - Advanced Statistics)**: Confidence intervals, A/B testing analysis, anomaly detection with statistical significance.
+-   **[[Canvas]] (v1.0 - Embeddable Components)**: Rich, interactive components designed for native embedding.
+-   **[[Sentinel]] (v1.0 - Multi-Tenant Alerting)**: Customer-scoped alerting with white-label notification customization.
+
+### Platform Operations
+-   **Multi-Customer Support**: Support processes for both direct customers and white-label partners.
+-   **White-Label Onboarding**: Streamlined technical integration process for SaaS companies.
+-   **Revenue Tracking**: Multi-tier billing for direct vs white-label customers.
+
+### Success Metrics
+-   **Direct Sales**: $5k MRR from 3-5 customers
+-   **White-Label Launch**: First 1-2 white-label customers at $950-1,500/month each
+-   **Platform Validation**: Prove dual-market approach
+
+## Phase 3: Platform Scale & Specialization (Months 9-12+)
+
+**Goal**: Scale white-label platform while maintaining direct sales growth. Achieve [[Interim Goals]] revenue targets.
+
+### Platform Maturity
+-   **[[Synapse]] (v1.0 - AI Integration)**: ML/AI capabilities for both direct and white-label customers using [[RubyLLM]].
+-   **Advanced Multi-Tenancy**: Customer-specific environments, advanced isolation, performance optimization.
+-   **Enterprise Features**: Advanced security, compliance reporting, dedicated customer environments.
+
+### Market Expansion
+-   **Vertical Specialization**: Industry-specific features for healthcare, fintech, e-commerce white-label customers.
+-   **Partner Ecosystem**: Integration partnerships with popular SaaS development platforms.
+-   **Community Building**: Developer relations and community-driven growth.
+
+### Revenue Targets
+-   **Combined Revenue**: $10k+ MRR from mix of direct and white-label customers
+-   **White-Label Focus**: 5-10 white-label customers generating $950-3,100/month each
+-   **Platform Economics**: Demonstrate superior unit economics vs pure direct sales
+
+## Success Metrics & Milestones
+
+### Month 3: Foundation Complete
+- Multi-tenant architecture operational
+- Customer data isolation verified
+- Basic statistical capabilities working
+
+### Month 6: Dual Revenue Streams
+- $5k MRR from direct [[Vantage]] sales
+- White-label technical foundation complete
+- First white-label customer signed
+
+### Month 9: Platform Validation
+- $8k+ MRR from combined direct and white-label
+- White-label SDK and developer portal operational
+- Statistical differentiation proven in market
+
+### Month 12: Interim Goals Achievement
+- $10k+ MRR target achieved
+- Platform approach validated
+- Clear path to white-label scaling established
+
+This roadmap transforms the development approach from building a single SaaS application to creating a multi-tenant platform that can serve both direct customers and power other SaaS companies' analytics needs, dramatically expanding revenue potential while leveraging the same technical foundation.
 
