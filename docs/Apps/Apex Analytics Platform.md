@@ -31,7 +31,7 @@ Based on comprehensive white-label market analysis, **pricing transparency is th
 - No-surprise billing with 7-day previews before charges
 - Option to set hard caps to prevent overages
 
-This transparent approach directly addresses the market's biggest frustration while enabling predictable revenue planning for both Apex and its customers.# Apex Analytics Platform
+This transparent approach is implemented by the [[Tally]] engine and directly addresses the market's biggest frustration while enabling predictable revenue planning for both Apex and its customers.# Apex Analytics Platform
 
 **Project Codename:** The Foundation  
 **Target Market:** SaaS companies needing white-label embedded analytics for their customers  
@@ -116,6 +116,24 @@ Rather than building Vantage and then retrofitting it for white-label use, Apex 
 
 **Pricing:** Enterprise pricing with custom implementations  
 **Target Customers:** 10-15 implementations generating $15k-40k MRR
+
+## Foundational Architectural Principles
+
+- **Strict Multi-Tenancy:** Complete data, processing, and security isolation between tenants is the cornerstone of the platform. The [[Aegis]] engine is responsible for this.
+- **API-First Design:** Every feature must be exposed and controllable via a secure, versioned API, managed by the [[Nexus]] engine.
+- **Modularity (SaaS Factory):** The platform is a collection of independent, interoperable engines, enabling rapid development and customization.
+
+## Developer Experience (DX) as a Feature
+
+- **Self-Service Developer Portal:** A dedicated portal for white-label customers to manage their API keys, view usage, and access documentation.
+- **High-Quality SDKs:** Easy-to-use Software Development Kits (SDKs) for popular web frameworks, starting with React/JavaScript.
+- **Interactive Documentation:** API documentation with the ability to make test calls directly from the browser.
+- **Sandbox Environment:** A fully functional testing environment for each white-label customer, isolated from their production data.
+
+## Core Operational Requirements
+
+- **Automated Tenant Provisioning:** A fully automated process for new white-label customers to sign up and get started.
+- **Centralized Platform Monitoring:** A dashboard to monitor the health, performance, and resource usage of the entire platform, with the ability to drill down into the metrics for each individual tenant.
 
 ## Technical Architecture
 
@@ -451,6 +469,24 @@ Public pricing calculator allowing prospects to:
 - Volume discounts for multiple implementations
 - Startup-friendly: 50% discount for first 6 months for qualifying companies
 - Revenue sharing for large enterprise implementations
+
+## Foundational Architectural Principles
+
+- **Strict Multi-Tenancy:** Complete data, processing, and security isolation between tenants is the cornerstone of the platform. The [[Aegis]] engine is responsible for this.
+- **API-First Design:** Every feature must be exposed and controllable via a secure, versioned API, managed by the [[Nexus]] engine.
+- **Modularity (SaaS Factory):** The platform is a collection of independent, interoperable engines, enabling rapid development and customization.
+
+## Developer Experience (DX) as a Feature
+
+- **Self-Service Developer Portal:** A dedicated portal for white-label customers to manage their API keys, view usage, and access documentation.
+- **High-Quality SDKs:** Easy-to-use Software Development Kits (SDKs) for popular web frameworks, starting with React/JavaScript.
+- **Interactive Documentation:** API documentation with the ability to make test calls directly from the browser.
+- **Sandbox Environment:** A fully functional testing environment for each white-label customer, isolated from their production data.
+
+## Core Operational Requirements
+
+- **Automated Tenant Provisioning:** A fully automated process for new white-label customers to sign up and get started.
+- **Centralized Platform Monitoring:** A dashboard to monitor the health, performance, and resource usage of the entire platform, with the ability to drill down into the metrics for each individual tenant.
 
 ## Technical Architecture
 

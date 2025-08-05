@@ -15,3 +15,4 @@ This directory contains documentation for new, custom Rails engines to be built 
 
 - **[[Nexus]]**: Provides a standardized way to expose application functionality via APIs for third-party developers.
 - **[[Synapse]]**: Offers a unified interface for integrating with various Machine Learning/AI Platform services.
+- **[[Tally]]**: Provides a reusable, robust, and extensible engine for metering and calculating usage-based billing.

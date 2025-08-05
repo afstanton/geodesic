@@ -383,3 +383,10 @@
 {"type":"relation","relationType":"is_persona_for","from1_":"Victor, the Vantage User (Operations VP)","to":"Vantage"}
 {"type":"relation","relationType":"is_persona_for","to":"Apex Analytics Platform","from1_":"Wendy, the White-Label Customer (SaaS CTO)"}
 {"type":"relation","to":"Wendy, the White-Label Customer (SaaS CTO)","from1_":"Apex Analytics Platform","relationType":"has_persona"}
+{"type":"relation","to":"Foundational Architectural Principles","from1_":"Apex Analytics Platform","relationType":"has_principle"}
+{"type":"relation","relationType":"has_feature","from1_":"Apex Analytics Platform","to":"Developer Experience (DX) as a Feature"}
+{"type":"relation","from1_":"Apex Analytics Platform","to":"Core Operational Requirements","relationType":"has_requirement"}
+{"type":"relation","relationType":"uses","from1_":"Apex Analytics Platform","to":"Tally"}
+{"type":"relation","to":"Pay","from1_":"Tally","relationType":"reports_to"}
+{"type":"relation","relationType":"reports_usage_to","to":"Tally","from1_":"Nexus"}
+{"type":"relation","relationType":"reports_usage_to","to":"Tally","from1_":"Conduit"}

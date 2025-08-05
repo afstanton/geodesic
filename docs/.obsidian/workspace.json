@@ -11,10 +11,14 @@
             "id": "78248e4c726cbee8",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Engines/New/Tally.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tally"
             }
           }
         ]
@@ -163,12 +167,13 @@
   },
   "active": "78248e4c726cbee8",
   "lastOpenFiles": [
+    "UX/Personas.md",
+    "Engines/New/Tally.md",
     "Untitled.canvas",
     "Executive Summary.md",
     "Home.md",
     "Analysis/Dual Track Strategy.md",
     "UX/User Flows.md",
-    "UX/Personas.md",
     "Analysis/Risk Register.md",
     "Development/Feature Prioritization.md",
     "Analysis/Go-to-Market Playbook.md",
