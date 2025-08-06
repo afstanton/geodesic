@@ -163,11 +163,16 @@
   },
   "active": "78248e4c726cbee8",
   "lastOpenFiles": [
+    "Documentation Index.md",
+    "Analysis/SaaS Market Analysis - Marketing Analytics vs BI.md",
+    "Executive Summary.md",
+    "Architecture/ADRs.md",
+    "Architecture/ADRs/002-choose-acts-as-tenant-for-multi-tenancy.md",
+    "Architecture/ADRs",
     "Analysis/Deployment Strategy.md",
     "Engines/New/Tally.md",
     "UX/Personas.md",
     "Untitled.canvas",
-    "Executive Summary.md",
     "Home.md",
     "Analysis/Dual Track Strategy.md",
     "UX/User Flows.md",
@@ -175,7 +180,7 @@
     "Development/Feature Prioritization.md",
     "Analysis/Go-to-Market Playbook.md",
     "Development/Current Focus.md",
-    "Analysis/White Label Market Analysis & Strategic Assessment.md",
+    "Analysis/White Label Market Analysis.md",
     "Apps/Apex Analytics Platform.md",
     "Analysis/White Label/White Label Data Processing Platform Market Analysis.md",
     "Analysis/White Label/White Label Analysis.md",
@@ -187,10 +192,6 @@
     "Gems/Existing/Chartkick.md",
     "Analysis/Project Inventory.md",
     "Gems/Existing/RubyLLM-MCP.md",
-    "Gems/Existing/RubyLLM-Schema.md",
-    "Gems/Existing/RubyLLM.md",
-    "Gems/Existing/ruby-llm.md",
-    "Gems/Existing/ruby-langchain.md",
     "Development",
     "UX",
     "Architecture",
@@ -198,7 +199,6 @@
     "Engines/New",
     "Gems/Existing",
     "Gems/New",
-    "Gems",
-    "Engines"
+    "Gems"
   ]
 }

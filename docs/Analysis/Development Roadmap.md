@@ -1,13 +1,13 @@
 # Development Roadmap**Purpose**: To outline the phased development plan for building a multi-tenant analytics platform supporting both direct SaaS sales and white-label implementations. This roadmap provides a critical path to achieving the project's [[Interim Goals]] through the [[Dual Track Strategy]].
 
-**Strategic Context**: Based on [[White Label Market Analysis & Strategic Assessment]], the platform will be architected for white-label capabilities from day one while launching direct sales through [[Vantage]].
+**Strategic Context**: Based on [[White Label Market Analysis]], the platform will be architected for white-label capabilities from day one while launching direct sales through [[Vantage]].
 
 ## Phase 0: Multi-Tenant Foundation (Months 1-3)
 
 **Goal**: Establish core platform architecture supporting both direct customers and future white-label implementations. Architecture decisions made here determine white-label viability.
 
 ### Core Platform Infrastructure
--   **Multi-Tenant Application Shell**: Create Rails application with [[Apartment]] gem for customer data isolation. Each customer gets separate database schema from day one.
+-   **Multi-Tenant Application Shell**: Create Rails application with `acts_as_tenant` gem for customer data isolation. Each customer gets separate database schema from day one.
 -   **White-Label Architecture Foundation**: Design database models and API structure to support customer branding, custom domains, and embedded components.
 -   **Engine Skeletons**: Generate skeletons for all engines ([[Conduit]], [[Quant]], [[Canvas]], [[Sentinel]], [[Aegis]], [[Optimus]], [[Nexus]], [[Synapse]]) with multi-tenant considerations.
 

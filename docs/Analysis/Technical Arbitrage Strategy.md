@@ -1,6 +1,6 @@
 # Technical Arbitrage Strategy
 
-**Related To**: [[SaaS Factory Strategy]], [[Asymmetric SaaS Opportunities for Advanced Analytics + Rails]]
+**Related To**: [[SaaS Factory Strategy]], [[Asymmetric SaaS Opportunities]]
 
 ## Overview
 

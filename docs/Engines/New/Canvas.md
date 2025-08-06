@@ -2,11 +2,11 @@
 
 **Purpose**: To provide a rich, interactive, and extensible framework for data visualization with native embedding capabilities for white-label implementations.
 
-**Related To**: [[Vantage]], [[Catalyst]], [[White Label Market Analysis & Strategic Assessment]], [[Nexus]]
+**Related To**: [[Vantage]], [[Catalyst]], [[White Label Market Analysis]], [[Nexus]]
 
 ## Strategic Importance for White-Label Platform
 
-The Canvas engine transforms from a traditional dashboard builder into the **cornerstone of white-label embedding success**. Based on [[White Label Market Analysis & Strategic Assessment]], the ability to provide truly native, embeddable components is a critical competitive differentiator.
+The Canvas engine transforms from a traditional dashboard builder into the **cornerstone of white-label embedding success**. Based on [[White Label Market Analysis]], the ability to provide truly native, embeddable components is a critical competitive differentiator.
 
 ### White-Label Market Requirements
 - **Native Embedding**: Components that integrate seamlessly into customer applications vs iframe limitations

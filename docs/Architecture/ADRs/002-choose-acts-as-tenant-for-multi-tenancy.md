@@ -1,20 +1,11 @@
-# Architecture Decision Records (ADRs)
+# ADR 002: Choose `acts_as_tenant` for Multi-Tenancy
 
-**Purpose**: To document significant architectural decisions made during the Geodesic project. Each ADR captures the context, the decision made, and its consequences, providing a historical log of the project's architectural evolution.
+## Status
+Accepted
 
-## ADR 001: Authorization Gem Standardization
+## Context
 
-- **Status**: Accepted
-- **Context**: The project initially considered both [[Pundit]] and CanCanCan for authorization. To maintain consistency and reduce complexity across the [[SaaS Factory Strategy]], a single authorization gem needed to be chosen.
-- **Decision**: Standardize on [[Pundit]] for authorization.
-- **Consequences**:
-    - **Pros**: Pundit's policy-based approach promotes explicit and testable authorization logic, which is beneficial for complex, multi-tenant SaaS applications. It integrates well with [[Rolify]] for role management.
-    - **Cons**: Requires more boilerplate code compared to CanCanCan's DSL. CanCanCan was removed from the recommended gems.
-
-## ADR 002: Choose `acts_as_tenant` for Multi-Tenancy
-
-- **Status**: Accepted
-- **Context**: The Geodesic project, particularly the [[Apex Analytics Platform]], requires robust multi-tenancy to ensure data isolation and scalability for its white-label SaaS offerings. Initially, the [[Development Roadmap]] referenced the `Apartment` gem for schema-based multi-tenancy.
+The Geodesic project, particularly the [[Apex Analytics Platform]], requires robust multi-tenancy to ensure data isolation and scalability for its white-label SaaS offerings. Initially, the [[Development Roadmap]] referenced the `Apartment` gem for schema-based multi-tenancy.
 
 However, the `Apartment` gem has not been actively maintained for several years (last update 6+ years ago). Using an outdated gem for such a critical architectural component introduces significant risks:
 
@@ -48,12 +39,3 @@ To adopt `acts_as_tenant` for implementing row-level multi-tenancy across the Ge
 -   Application code will need to ensure the `current_tenant` is correctly set in controllers and background jobs.
 -   The `users` table (managed by [[Aegis]]) will require a `tenant_id` column.
 -   The `Aegis` engine will be responsible for setting and managing the `current_tenant` context during authentication and subsequent requests.
-
-## ADR 003: Data Ingestion Engine Leveraging ETL Gem
-
-- **Status**: Accepted
-- **Context**: The [[Conduit]] is a new, high-level component responsible for managing the entire data ingestion process. The existing [[ETL]] gem provides a low-level framework for ETL processes.
-- **Decision**: The [[Conduit]] will leverage the [[ETL]] gem as an internal dependency for its core processing logic.
-- **Consequences**:
-    - **Pros**: Promotes code reuse and leverages an existing, battle-tested gem for the fundamental ETL operations. Reduces the development effort for the Data Ingestion Engine.
-    - **Cons**: Introduces a dependency on the ETL gem, requiring familiarity with its API and conventions.

@@ -1,6 +1,6 @@
 # Dual Track Strategy
 
-**Purpose:** To define the implementation plan that balances the immediate need for revenue with the higher-leverage, long-term opportunity of the white-label platform. This strategy is the direct result of the [[White Label Market Analysis & Strategic Assessment]].
+**Purpose:** To define the implementation plan that balances the immediate need for revenue with the higher-leverage, long-term opportunity of the white-label platform. This strategy is the direct result of the [[White Label Market Analysis]].
 
 **Related To:** [[Interim Goals]], [[Development Roadmap]], [[Apex Analytics Platform]]
 

@@ -1,7 +1,7 @@
 # Project Inventory & Technical Arbitrage Analysis
 
 Foundation: [[Baseline]] | Strategy: [[SaaS Factory Strategy]] | Current Options: [[Vantage]], [[Catalyst]]  
-Initial Research: [[Asymmetric SaaS Opportunities for Advanced Analytics + Rails]]
+Initial Research: [[Asymmetric SaaS Opportunities]]
 
 ## The Pattern Recognition
 Aaron has identified a crucial pattern:

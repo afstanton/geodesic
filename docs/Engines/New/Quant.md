@@ -2,11 +2,11 @@
 
 **Purpose**: To provide the core statistical and mathematical modeling capabilities that differentiate the Geodesic platform. **The primary competitive moat for white-label market dominance**.
 
-**Related To**: [[Vantage]], [[Catalyst]], [[Technical Arbitrage Strategy]], [[White Label Market Analysis & Strategic Assessment]]
+**Related To**: [[Vantage]], [[Catalyst]], [[Technical Arbitrage Strategy]], [[White Label Market Analysis]]
 
 ## Strategic Importance: The PhD Advantage
 
-The Quant engine represents Aaron's **unique competitive advantage** - PhD-level statistical expertise that no white-label competitor can match. Based on [[White Label Market Analysis & Strategic Assessment]], the current market offers only "basic trendlines, aggregates, and filtering" with zero advanced statistical capabilities.
+The Quant engine represents Aaron's **unique competitive advantage** - PhD-level statistical expertise that no white-label competitor can match. Based on [[White Label Market Analysis]], the current market offers only "basic trendlines, aggregates, and filtering" with zero advanced statistical capabilities.
 
 ### Market Gap Analysis
 **What Competitors DON'T Provide:**

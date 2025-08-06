@@ -3,7 +3,7 @@
 **Research Date:** August 2025  
 **Purpose:** Initial technical arbitrage opportunity analysis  
 **Context:** Supporting [[Baseline]] assessment and [[SaaS Factory Strategy]] development  
-**Follow-up Analysis:** [[SaaS Market Analysis: Marketing Analytics vs Business Intelligence]]
+**Follow-up Analysis:** [[SaaS Market Analysis - Marketing Analytics vs BI]]
 
 The convergence of theoretical chemistry expertise, global optimization background, and 20+ years Rails experience creates significant arbitrage opportunities in markets where advanced mathematical skills command premium pricing but remain scarce among typical developers.
 
@@ -91,7 +91,7 @@ This initial analysis identified key technical arbitrage opportunities, leading 
 1. **[[Catalyst]]** - Leveraging MMM expertise for premium marketing analytics
 2. **[[Vantage]]** - Advanced analytics for mid-market companies
 
-Detailed competitive analysis and implementation planning documented in [[SaaS Market Analysis: Marketing Analytics vs Business Intelligence]].
+Detailed competitive analysis and implementation planning documented in [[SaaS Market Analysis - Marketing Analytics vs BI]].
 
 **Implementation Strategy:** [[SaaS Factory Strategy]] - Modular approach to rapid SaaS development
 **Current Recommendation:** [[Vantage]] for faster time-to-market aligned with [[Interim Goals]]

@@ -13,7 +13,7 @@ This is the central hub for the Geodesic project's knowledge base.
 
 - **[[SaaS Factory Strategy]]**: The core model for building a portfolio of applications.
 - **[[Dual Track Strategy]]**: The plan for balancing direct sales with white-label development.
-- **[[White Label Market Analysis & Strategic Assessment]]**: The research validating the white-label opportunity.
+- **[[White Label Market Analysis]]**: The research validating the white-label opportunity.
 - **[[Enterprise Security Strategy]]**: The plan for making security a competitive advantage.
 
 ## Applications

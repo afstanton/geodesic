@@ -11,7 +11,7 @@
 - **Audit Logging**: A comprehensive audit trail of all security-sensitive events.
 - **Multi-Factor Authentication (MFA)**: Integration with MFA providers.
 - **Enterprise Data Security**: Bank-grade encryption and data isolation for customer data.
-- **Customer Data Isolation**: Complete separation of customer data using multi-tenant architecture.
+- **Customer Data Isolation**: Complete separation of customer data using row-level multi-tenancy with `acts_as_tenant`.
 - **Encryption Management**: Customer-specific encryption keys with automatic rotation.
 - **Compliance Framework**: Built-in support for SOC 2, GDPR, HIPAA, and SOX compliance.
 
@@ -42,7 +42,7 @@
 - **Authorization Adapter**: An adapter to integrate with an authorization gem like [[Pundit]].
 - **Encryption Services**: Customer-specific encryption, key management, and rotation.
 - **Compliance Services**: Automated compliance reporting and audit trail generation.
-- **Dependencies**: [[Devise]] (Engine), [[Pundit]], [[Rolify]], [[Apartment]] (multi-tenancy), AWS KMS or HashiCorp Vault (key management).
+- **Dependencies**: [[Devise]] (Engine), [[Pundit]], [[Rolify]], `acts_as_tenant`, AWS KMS or HashiCorp Vault (key management).
 
 ## Competitive Advantages
 
