@@ -193,8 +193,8 @@ The critical challenge is **execution velocity**. With 147 days remaining, the f
 
 1. **Technical:** Focus time for deep development work
 2. **Financial:** Runway for 3-4 months development
-3. **Mental:** Daily progress tracking and accountability
-4. **Network:** Introductions to potential customers
+3. **Mental & Physical Well-being:** Prioritize sustainable work habits, track progress, and ensure adequate rest and self-care.
+4. **Network:** Introductions to potential customers and a small advisory network for non-technical support and motivation.
 
 ## Conclusion
 

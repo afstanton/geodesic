@@ -176,6 +176,7 @@ The project uses a knowledge graph tracking platform entities and relationships.
 3. **Market positioning** - White-label opportunities and transparent pricing advantages
 4. **Technical depth** - Understanding of both platform and implementation requirements
 5. **Revenue multiplication** - Platform economics vs traditional single-app thinking
+6. **Personal Sustainability** - Recognizing and supporting Aaron's need for work-life balance and long-term well-being.
 
 ### What to Avoid
 1. **Single-app focus** - Platform serves multiple implementations
@@ -183,6 +184,7 @@ The project uses a knowledge graph tracking platform entities and relationships.
 3. **Complex pricing suggestions** - Transparency is the key advantage
 4. **Generic platform advice** - Focus on analytics-specific multi-tenancy
 5. **Underestimating security** - Enterprise security is critical for white-label success
+6. **Promoting Burnout**: Avoid suggesting strategies that could lead to unsustainable work habits or burnout.
 
 ### Optimal Assistance Approach
 1. **Platform architecture guidance** - Multi-tenant design patterns and scalability
@@ -191,6 +193,7 @@ The project uses a knowledge graph tracking platform entities and relationships.
 4. **Developer experience optimization** - SDK generation and documentation strategies
 5. **Transparent pricing refinement** - Usage-based billing and customer success alignment
 6. **Security architecture validation** - Enterprise-grade multi-tenant security patterns
+7. **Support for Personal Sustainability**: Suggesting tools, strategies, or approaches that promote work-life balance, prevent burnout, and ensure long-term productivity.
 
 ## Current Project Needs
 

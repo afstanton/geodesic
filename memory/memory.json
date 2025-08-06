@@ -127,6 +127,14 @@
 {"type":"entity","name":"Proprietary Code","entityType":"Constraint","observations":["Will not license or give away platform engines (competitive moat)"]}
 {"type":"entity","observations":["Must own the entire business model and infrastructure"],"entityType":"Constraint","name":"Platform/SaaS Only"}
 {"type":"entity","entityType":"Constraint","observations":["Needs cash flow ASAP for survival and relocation"],"name":"Fast Revenue Generation"}
+{"type":"entity","observations":["Focuses on providing clear, plain-language interpretations of complex statistical results","Aims to build greater trust and make advanced insights more actionable for non-technical users"],"name":"Explainable AI/Statistics (XAI)","entityType":"Concept"}
+{"type":"entity","entityType":"Certification","observations":["A major trust signal and often a prerequisite for larger companies","Proactively pursuing it can significantly shorten sales cycles for enterprise white-label customers"],"name":"SOC 2 Type II Certification"}
+{"type":"entity","observations":["Prioritizes developing a highly polished, easy-to-integrate SDK and compelling demo for a specific, high-value use case or tech stack","Aims to accelerate early white-label customer acquisition and generate crucial social proof and revenue"],"entityType":"Strategy","name":"Quick-Win SDK/Integration"}
+{"type":"entity","entityType":"Strategy","name":"Build in Public Strategy","observations":["Increases visibility and attracts early adopters","Reinforces social proof and expertise"]}
+{"type":"entity","observations":["Fosters engagement and collaboration","Can lead to unexpected opportunities and contributions"],"entityType":"Strategy","name":"Developer Community"}
+{"type":"entity","observations":["Ensures product-market fit and prevents building features that don't solve real problems","Crucial for agile development and iterative improvement"],"entityType":"Strategy","name":"Continuous Feedback Loop"}
+{"type":"entity","name":"Strategic Niche Focus","observations":["Simplifies go-to-market efforts and accelerates early customer acquisition","Allows for deeper problem understanding and tailored solutions"],"entityType":"Strategy"}
+{"type":"entity","name":"Personal Sustainability","entityType":"Concept","observations":["Ensures long-term productivity and prevents burnout","Crucial for maintaining energy and focus in a marathon project"]}
 {"type":"relation","from":"Aaron F Stanton","to":"Chemistry Doctorate","relationType":"earned"}
 {"type":"relation","from":"Aaron F Stanton","to":"Web Development Career","relationType":"has"}
 {"type":"relation","from":"Aaron F Stanton","to":"Current Financial Situation","relationType":"faces"}
@@ -509,3 +517,19 @@
 {"type":"relation","relationType":"is a","to":"Strategy","from":"SaaS Factory Strategy"}
 {"type":"relation","from":"Technical Arbitrage Philosophy","to":"Concept","relationType":"is a"}
 {"type":"relation","relationType":"is a","to":"Concept","from":"Platform Economics"}
+{"type":"relation","relationType":"incorporates","from":"Quant Engine","to":"Explainable AI/Statistics (XAI)"}
+{"type":"relation","from":"Explainable AI/Statistics (XAI)","relationType":"enhances","to":"White Label Technical Arbitrage"}
+{"type":"relation","to":"SOC 2 Type II Certification","from":"Enterprise Security Strategy","relationType":"includes"}
+{"type":"relation","to":"SOC 2 Type II Certification","relationType":"supports","from":"Aegis Engine"}
+{"type":"relation","from":"Nexus Engine","relationType":"provides","to":"Quick-Win SDK/Integration"}
+{"type":"relation","to":"White Label Market Opportunity","from":"Quick-Win SDK/Integration","relationType":"addresses"}
+{"type":"relation","relationType":"accelerates","from":"Quick-Win SDK/Integration","to":"Dual Track Strategy"}
+{"type":"relation","to":"Customer Acquisition Playbook","relationType":"is part of","from":"Build in Public Strategy"}
+{"type":"relation","from":"Build in Public Strategy","relationType":"fosters","to":"Developer Community"}
+{"type":"relation","to":"Customer Acquisition Playbook","relationType":"supports","from":"Developer Community"}
+{"type":"relation","from":"Continuous Feedback Loop","relationType":"is part of","to":"Customer Acquisition Playbook"}
+{"type":"relation","from":"Continuous Feedback Loop","to":"Apex Analytics Platform","relationType":"improves"}
+{"type":"relation","to":"Customer Acquisition Playbook","relationType":"is part of","from":"Strategic Niche Focus"}
+{"type":"relation","relationType":"enhances","from":"Strategic Niche Focus","to":"Quick-Win SDK/Integration"}
+{"type":"relation","relationType":"is crucial for","to":"Aaron F Stanton","from":"Personal Sustainability"}
+{"type":"relation","to":"$10k MRR by end of 2025","relationType":"supports","from":"Personal Sustainability"}

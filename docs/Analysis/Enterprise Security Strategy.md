@@ -118,7 +118,7 @@ end
 ### Phase 2: Enterprise Security (Months 4-6)
 - Advanced threat detection and monitoring
 - Customer-controlled security policies
-- SOC 2 Type II compliance preparation
+- SOC 2 Type II compliance preparation (Accelerated)
 - Security incident response procedures
 
 ### Phase 3: Security Excellence (Months 6+)
@@ -190,7 +190,7 @@ end
 - Zero customer data breaches or security incidents
 - 100% encryption of customer data at rest and in transit
 - Complete audit trail coverage for all data access and processing
-- SOC 2 Type II compliance within 12 months
+- SOC 2 Type II compliance within 12 months (refer to the [AICPA's SOC 2 Reporting on an Examination of Controls guide](https://www.aicpa-cima.com/resources/download/soc-2-reporting-on-an-examination-of-controls-at-a-service-organization-relevant-to-security-availability-processing-integrity-confidentiality-or-privacy-soc-2-guide) for details)
 
 ### Business Metrics
 - 25-50% premium pricing over basic BI competitors

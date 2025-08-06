@@ -113,6 +113,14 @@ The Quant engine represents Aaron's **unique competitive advantage** - PhD-level
 3. **"PhD-Level Analytics"**: Advanced statistical modeling accessible through simple APIs
 4. **"Operations Research Integration"**: Optimization capabilities for supply chain, resource allocation, pricing
 
+### Explainable AI/Statistics (XAI)
+To build greater trust and make advanced insights more actionable for non-technical users, the Quant Engine will emphasize Explainable AI/Statistics (XAI) (for a general overview, see [Wikipedia's Explainable AI page](https://en.wikipedia.org/wiki/Explainable_artificial_intelligence)). This involves:
+- **Plain-English Interpretations**: Providing clear, concise explanations of statistical results, model outputs, and their business implications.
+- **Confidence Measures**: Explicitly communicating the uncertainty associated with predictions and insights (e.g., confidence intervals, prediction intervals).
+- **Feature Importance**: Identifying and explaining which factors or variables are most influential in a model's predictions or a statistical outcome.
+- **Model Assumptions & Limitations**: Clearly documenting the assumptions underlying each statistical model and its limitations, ensuring appropriate use.
+- **Actionable Recommendations**: Translating complex statistical findings into concrete, actionable business recommendations.
+
 ### API Examples for White-Label Customers
 
 ```javascript
