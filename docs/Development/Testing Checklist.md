@@ -53,12 +53,14 @@
 ```
 - [ ] Data created in tenant A not visible in tenant B
 - [ ] API calls with tenant A key cannot access tenant B
-- [ ] Database queries scoped to correct schema
+- [ ] All queries include tenant_id in WHERE clause
+- [ ] ActsAsTenant.current_tenant properly set in all contexts
 - [ ] Background jobs process in correct tenant context
 - [ ] Cache keys include tenant identifier
-- [ ] File uploads isolated per tenant
-- [ ] Audit logs record correct tenant
+- [ ] File uploads associated with correct tenant_id
+- [ ] Audit logs record correct tenant_id
 - [ ] No data leakage in error messages
+- [ ] Models without acts_as_tenant raise errors
 
 ### API Endpoint Tests
 ```ruby
@@ -82,9 +84,10 @@
 - [ ] Malformed CSV rejected gracefully
 - [ ] Data encrypted immediately on upload
 - [ ] Processing job queued successfully
-- [ ] Results stored in correct tenant schema
+- [ ] Results include correct tenant_id
 - [ ] Temporary files cleaned up
 - [ ] Upload progress tracked accurately
+- [ ] Tenant context maintained throughout pipeline
 
 ## Security Testing Checklist
 

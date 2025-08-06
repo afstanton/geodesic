@@ -16,7 +16,8 @@
 **Goal:** Multi-tenant architecture with basic statistical capabilities
 
 ### Priority 1: Core Platform Infrastructure
-- [ ] Implement PostgreSQL schema-based multi-tenancy in Apex
+- [ ] Implement row-level multi-tenancy with acts_as_tenant
+- [ ] Add tenant_id to all data tables
 - [ ] Create tenant switching middleware
 - [ ] Build base API structure with versioning (v1)
 - [ ] Set up tenant isolation tests
@@ -212,7 +213,8 @@
 ## Notes & Decisions
 
 ### Architecture Decisions
-- PostgreSQL schemas for tenant isolation (not Apartment gem initially)
+- Row-level isolation with acts_as_tenant (single schema approach)
+- Composite indexes on (tenant_id, id) for performance
 - Sidekiq for background processing
 - Redis for caching and real-time features
 - React for embeddable components

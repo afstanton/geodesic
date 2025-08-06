@@ -431,7 +431,7 @@ curl -X POST http://localhost:3000/api/v1/analysis/regression \
 ## Common Issues & Solutions
 
 ### Issue: Tenant data leakage
-**Solution:** Always reset search_path in ensure blocks
+**Solution:** Always use acts_as_tenant(:tenant) in models and verify ActsAsTenant.current_tenant is set
 
 ### Issue: Slow statistical calculations
 **Solution:** Move to background jobs for large datasets

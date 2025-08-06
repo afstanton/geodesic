@@ -19,8 +19,9 @@
 - **Tomorrow:** Start multi-tenant implementation
 
 #### Day 2 - [Date]
-- [ ] Implement apartment gem alternative (schema-based)
-- [ ] Create tenant model and switching logic
+- [ ] Install and configure acts_as_tenant gem
+- [ ] Create tenant model with row-level isolation
+- [ ] Add tenant_id to all data models
 - [ ] Write tenant isolation tests
 - **Blockers:** [To be filled]
 - **Tomorrow:** [To be planned]
@@ -85,7 +86,7 @@
 ## Technical Decisions Log
 
 ### Week 1 Decisions
-1. **Multi-tenancy:** Schema-based isolation over Apartment gem for better control
+1. **Multi-tenancy:** Row-level isolation with acts_as_tenant (single schema)
 2. **Stats Library:** Evaluating statsample vs custom implementation for Quant
 3. **API Format:** REST with JSON API specification
 4. **Authentication:** Devise + JWT for API authentication

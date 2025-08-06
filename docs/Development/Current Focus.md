@@ -10,8 +10,9 @@
 **Owner:** Aaron  
 **Status:** In Progress
 
-- [ ] Implement PostgreSQL schema-based isolation
-- [ ] Create Tenant model with provisioning
+- [ ] Install and configure acts_as_tenant gem
+- [ ] Create Tenant model with API key generation
+- [ ] Add tenant_id to all data models
 - [ ] Build tenant switching middleware
 - [ ] Write comprehensive isolation tests
 - [ ] Document tenant architecture decisions
@@ -51,8 +52,8 @@ None currently.
 1. **Statistics Library**: Build custom vs use statsample gem?
    - **Recommendation:** Start with custom for control, migrate if needed
    
-2. **Tenant Isolation**: Apartment gem vs custom schema switching?
-   - **Recommendation:** Custom for better control and security
+2. **Tenant Isolation**: Confirmed using acts_as_tenant
+   - **Decision Made:** Row-level isolation with acts_as_tenant gem
    
 3. **Background Jobs**: Sidekiq vs GoodJob?
    - **Recommendation:** Sidekiq for ecosystem and stability
@@ -60,8 +61,8 @@ None currently.
 ## Daily Checklist
 
 ### Monday
-- [ ] Morning: Set up tenant model and migrations
-- [ ] Afternoon: Implement schema creation and switching
+- [ ] Morning: Install acts_as_tenant and create tenant model
+- [ ] Afternoon: Add tenant_id to all models and migrations
 - [ ] Evening: Write first isolation test
 
 ### Tuesday  

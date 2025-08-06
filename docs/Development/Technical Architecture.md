@@ -47,10 +47,10 @@ Apex Analytics Platform is a multi-tenant, API-first analytics platform designed
 ## Multi-Tenant Architecture
 
 ### Database Isolation Strategy
-- **Approach:** PostgreSQL Schema-based isolation
-- **Implementation:** Each tenant gets a dedicated schema
-- **Switching:** Middleware sets schema based on API key or subdomain
-- **Shared Tables:** Users, tenants, billing in public schema
+- **Approach:** Single schema with row-level isolation
+- **Implementation:** All data in one schema with tenant_id foreign keys
+- **Switching:** acts_as_tenant gem sets current tenant based on API key or subdomain
+- **Scoping:** All queries automatically scoped to current tenant
 
 ### Tenant Model
 ```ruby
@@ -59,7 +59,6 @@ class Tenant < ApplicationRecord
   # - name: string
   # - subdomain: string (unique)
   # - api_key: string (encrypted, unique)
-  # - schema_name: string
   # - encryption_key: string (encrypted)
   # - settings: jsonb
   # - usage_limits: jsonb
@@ -69,8 +68,9 @@ class Tenant < ApplicationRecord
   has_many :data_sources
   has_many :api_logs
   
-  after_create :provision_schema
-  after_destroy :drop_schema
+  # No schema provisioning needed - all data in single schema
+  after_create :generate_encryption_key
+  before_destroy :cleanup_tenant_data
 end
 ```
 
@@ -79,11 +79,11 @@ end
 class TenantMiddleware
   def call(env)
     tenant = identify_tenant(env)
-    Apartment::Tenant.switch(tenant.schema_name) do
+    ActsAsTenant.with_tenant(tenant) do
       @app.call(env)
     end
   ensure
-    Apartment::Tenant.reset
+    ActsAsTenant.current_tenant = nil
   end
   
   private
@@ -94,6 +94,12 @@ class TenantMiddleware
     # Check subdomain
     # Raise error if not found
   end
+end
+
+# In models that need tenant scoping:
+class DataSource < ApplicationRecord
+  acts_as_tenant(:tenant)
+  # All queries automatically scoped to current tenant
 end
 ```
 
@@ -236,12 +242,14 @@ Endpoints:
 ```ruby
 class SecureDataProcessor
   def process(tenant, data)
-    # 1. Validate tenant access
-    # 2. Decrypt with tenant key
-    # 3. Process in isolated environment
-    # 4. Encrypt results
-    # 5. Audit log all operations
-    # 6. Clean up temporary data
+    ActsAsTenant.with_tenant(tenant) do
+      # 1. Validate tenant access
+      # 2. Decrypt with tenant key
+      # 3. Process with automatic tenant scoping
+      # 4. Encrypt results
+      # 5. Audit log all operations (tenant_id included)
+      # 6. Clean up temporary data
+    end
   end
 end
 ```
@@ -268,7 +276,7 @@ class StatisticalAnalysisJob < ApplicationJob
   def perform(tenant_id, analysis_type, params)
     tenant = Tenant.find(tenant_id)
     
-    Apartment::Tenant.switch(tenant.schema_name) do
+    ActsAsTenant.with_tenant(tenant) do
       result = Quant.analyze(analysis_type, params)
       cache_result(result)
       notify_completion(tenant, result)
@@ -278,10 +286,11 @@ end
 ```
 
 ### Database Optimizations
-- Indexes on all foreign keys
-- Partial indexes for tenant queries
-- Table partitioning for time-series data
-- Connection pooling per tenant
+- Composite indexes on (tenant_id, primary_key) for all tables
+- Partial indexes for tenant-specific queries
+- Table partitioning for time-series data by tenant_id
+- Single connection pool with efficient query scoping
+- Ensure all queries use tenant_id in WHERE clause
 
 ## Deployment Architecture
 
